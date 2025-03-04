@@ -17,49 +17,49 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CarRental
 build_property.RootNamespace = CarRental
-build_property.ProjectDir = C:\Users\Chrisha Dalmacio\OneDrive\Desktop\CaseStudy_CarRental\CarRental\
+build_property.ProjectDir = C:\Users\Jayvie\Desktop\CaseStudy_CarRental\CarRental\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Chrisha Dalmacio\OneDrive\Desktop\CaseStudy_CarRental\CarRental
+build_property.MSBuildProjectDirectory = C:\Users\Jayvie\Desktop\CaseStudy_CarRental\CarRental
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/Chrisha Dalmacio/OneDrive/Desktop/CaseStudy_CarRental/CarRental/Views/Account/Index.cshtml]
+[C:/Users/Jayvie/Desktop/CaseStudy_CarRental/CarRental/Views/Account/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Chrisha Dalmacio/OneDrive/Desktop/CaseStudy_CarRental/CarRental/Views/Account/Login.cshtml]
+[C:/Users/Jayvie/Desktop/CaseStudy_CarRental/CarRental/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Chrisha Dalmacio/OneDrive/Desktop/CaseStudy_CarRental/CarRental/Views/Account/SecurePage.cshtml]
+[C:/Users/Jayvie/Desktop/CaseStudy_CarRental/CarRental/Views/Account/SecurePage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTZWN1cmVQYWdlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Chrisha Dalmacio/OneDrive/Desktop/CaseStudy_CarRental/CarRental/Views/Account/Signup.cshtml]
+[C:/Users/Jayvie/Desktop/CaseStudy_CarRental/CarRental/Views/Account/Signup.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTaWdudXAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Chrisha Dalmacio/OneDrive/Desktop/CaseStudy_CarRental/CarRental/Views/Home/Index.cshtml]
+[C:/Users/Jayvie/Desktop/CaseStudy_CarRental/CarRental/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Chrisha Dalmacio/OneDrive/Desktop/CaseStudy_CarRental/CarRental/Views/Shared/Error.cshtml]
+[C:/Users/Jayvie/Desktop/CaseStudy_CarRental/CarRental/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Chrisha Dalmacio/OneDrive/Desktop/CaseStudy_CarRental/CarRental/Views/Shared/UserDashboard.cshtml]
+[C:/Users/Jayvie/Desktop/CaseStudy_CarRental/CarRental/Views/Shared/UserDashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFVzZXJEYXNoYm9hcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Chrisha Dalmacio/OneDrive/Desktop/CaseStudy_CarRental/CarRental/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Jayvie/Desktop/CaseStudy_CarRental/CarRental/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Chrisha Dalmacio/OneDrive/Desktop/CaseStudy_CarRental/CarRental/Views/_ViewImports.cshtml]
+[C:/Users/Jayvie/Desktop/CaseStudy_CarRental/CarRental/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
