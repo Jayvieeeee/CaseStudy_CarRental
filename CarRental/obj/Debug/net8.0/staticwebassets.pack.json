@@ -25,6 +25,66 @@
       "PackagePath": "staticwebassets\\images\\car.png"
     },
     {
+      "Id": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\images\\carlist\\accent.jpg",
+      "PackagePath": "staticwebassets\\images\\carlist\\accent.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\images\\carlist\\almera.jpg",
+      "PackagePath": "staticwebassets\\images\\carlist\\almera.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\images\\carlist\\avanza.jpg",
+      "PackagePath": "staticwebassets\\images\\carlist\\avanza.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\images\\carlist\\city.jpg",
+      "PackagePath": "staticwebassets\\images\\carlist\\city.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\images\\carlist\\dzire.jpg",
+      "PackagePath": "staticwebassets\\images\\carlist\\dzire.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\images\\carlist\\ecosport.jpg",
+      "PackagePath": "staticwebassets\\images\\carlist\\ecosport.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\images\\carlist\\ertiga.jpg",
+      "PackagePath": "staticwebassets\\images\\carlist\\ertiga.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\images\\carlist\\livina.jpg",
+      "PackagePath": "staticwebassets\\images\\carlist\\livina.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\images\\carlist\\mirage.jpg",
+      "PackagePath": "staticwebassets\\images\\carlist\\mirage.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\images\\carlist\\sedan.jpg",
+      "PackagePath": "staticwebassets\\images\\carlist\\sedan.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\images\\carlist\\soluto.jpg",
+      "PackagePath": "staticwebassets\\images\\carlist\\soluto.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\images\\carlist\\spark.jpg",
+      "PackagePath": "staticwebassets\\images\\carlist\\spark.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\images\\carlist\\vios.jpg",
+      "PackagePath": "staticwebassets\\images\\carlist\\vios.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\images\\carlist\\xpander.jpg",
+      "PackagePath": "staticwebassets\\images\\carlist\\xpander.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\images\\carlist\\xv.jpg",
+      "PackagePath": "staticwebassets\\images\\carlist\\xv.jpg"
+    },
+    {
       "Id": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
