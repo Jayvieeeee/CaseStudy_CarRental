@@ -1,0 +1,135 @@
+﻿
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #fff;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: #fff;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding-right: 170px;
+    gap: 55px;
+}
+
+
+    nav a {
+        margin: 0 15px;
+        text-decoration: none;
+        color: #333;
+        font-weight: 600;
+    }
+
+        nav a:hover {
+            color: #D2042D;
+        }
+
+.login-btn {
+    background: #D2042D;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 80px;
+}
+
+.content {
+    max-width: 500px;
+}
+
+h3 {
+    color: #333;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #D2042D;
+    line-height: 1.2;
+}
+
+p {
+    font-size: 16px;
+    margin: 15px 0;
+    color: #555;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.rent-btn {
+    background: #D2042D;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 30px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.see-more {
+    background: white;
+    color: #D2042D;
+    border: 2px solid #D2042D;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-weight: 600;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.car-image img {
+    width: 700px;
+    margin-left: auto;
+    margin-right: 50px;
+}
+.buttons a {
+    text-decoration: none; 
+}
+
+.rent-btn {
+    background: #D2042D;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 30px;
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+}
+
+    .rent-btn:hover {
+        background: rgba(210, 4, 45, 0.8);
+    }

@@ -1,0 +1,50 @@
+﻿@{
+    Layout = null;
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DM Online Car Rental</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/home.css">
+</head>
+<body>
+    <header>
+        <div class="logo">DM Cars Official</div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Contact</a>
+            <a asp-controller="Account" asp-action="Login">
+                <button class="login-btn">Log in</button>
+            </a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="content">
+            <h3>RENT & GO!</h3>
+            <h1>DM ONLINE CAR RENTAL</h1>
+            <p>Your Ride, Your Way – RENT Now!</p>
+            <p>Your go-to car rental service for every journey! From daily drives to special trips, we offer a wide range of reliable and affordable vehicles. Book with ease today!</p>
+            <div class="buttons">
+                <a asp-controller="Account" asp-action="Login">
+                    <button class="rent-btn">RENT</button>
+                </a>
+                <button class="see-more">See more</button>
+            </div>
+
+        </div>
+        <div class="car-image">
+            <img src="~/images/car.png" alt="Car">
+        </div>
+    </section>
+</body>
+</html>
+
+
+
