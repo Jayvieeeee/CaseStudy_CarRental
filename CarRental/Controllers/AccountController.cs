@@ -1,6 +1,6 @@
 ﻿using System.Security.Claims;
-using CarRental.Entities;
 using CarRental.Models;
+using CarRental.Data;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
@@ -12,9 +12,9 @@ namespace CarRental.Controllers
 {
     public class AccountController : Controller
     {
-        private readonly AccesDb _context;
+        private readonly AppDbContext _context;
 
-        public AccountController(AccesDb accesDb)
+        public AccountController(AppDbContext accesDb)
         {
 
             _context = accesDb;
