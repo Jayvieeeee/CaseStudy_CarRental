@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Bb+DD9IIwP5gPszU7e6lr0RMNPbVzJabeRGw9il7S0g=",
+  "Hash": "Pf2Du0JiirxarFsGjfq4OSjMmwUDfGY2r0zIjrUD7FM=",
   "Source": "CarRental",
   "BasePath": "_content/CarRental",
   "Mode": "Default",
@@ -269,6 +269,27 @@
       "OriginalItemSpec": "wwwroot\\images\\carlist\\ertiga.jpg"
     },
     {
+      "Identity": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\images\\carlist\\hiace.jpg",
+      "SourceId": "CarRental",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\",
+      "BasePath": "_content/CarRental",
+      "RelativePath": "images/carlist/hiace#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yseykrwkb1",
+      "Integrity": "cl921q/xks54ejkL1/ncOlC3Cwen9hJdw7E/Ck6t8u8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\carlist\\hiace.jpg"
+    },
+    {
       "Identity": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\images\\carlist\\livina.jpg",
       "SourceId": "CarRental",
       "SourceType": "Discovered",
@@ -372,6 +393,90 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\carlist\\spark.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\images\\carlist\\sprinter.jpg",
+      "SourceId": "CarRental",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\",
+      "BasePath": "_content/CarRental",
+      "RelativePath": "images/carlist/sprinter#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "avmt371sg9",
+      "Integrity": "BogeFlL54zpMm0rKPz3J0iPZnKTvHNazwH9pbmTzFzU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\carlist\\sprinter.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\images\\carlist\\starex.jpg",
+      "SourceId": "CarRental",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\",
+      "BasePath": "_content/CarRental",
+      "RelativePath": "images/carlist/starex#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3x6ujcevig",
+      "Integrity": "eT7Fd8VCOhrWkidyfpfkmT1dtKKjHJhHM5S7CM9+AJU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\carlist\\starex.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\images\\carlist\\transit.jpg",
+      "SourceId": "CarRental",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\",
+      "BasePath": "_content/CarRental",
+      "RelativePath": "images/carlist/transit#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4xkzbrgj1o",
+      "Integrity": "qEuz/Ckhh/5YzK5qQZW5P6rHvSyyv68G3KFOpg4O6EY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\carlist\\transit.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\images\\carlist\\urvan.jpg",
+      "SourceId": "CarRental",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\",
+      "BasePath": "_content/CarRental",
+      "RelativePath": "images/carlist/urvan#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "js3cvjbiex",
+      "Integrity": "zYYaRsYSatr8bxiY7VTNi7mrPfb85AEz1qnbct3/fxA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\carlist\\urvan.jpg"
     },
     {
       "Identity": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\images\\carlist\\vios.jpg",
@@ -1679,7 +1784,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Mar 2025 14:51:16 GMT"
+          "Value": "Wed, 05 Mar 2025 14:59:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1716,7 +1821,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Mar 2025 14:51:16 GMT"
+          "Value": "Wed, 05 Mar 2025 14:59:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1761,7 +1866,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Mar 2025 14:51:15 GMT"
+          "Value": "Wed, 05 Mar 2025 14:59:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1798,7 +1903,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Mar 2025 14:51:15 GMT"
+          "Value": "Wed, 05 Mar 2025 14:59:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1843,7 +1948,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Mar 2025 11:48:52 GMT"
+          "Value": "Wed, 05 Mar 2025 14:59:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1888,7 +1993,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Mar 2025 11:48:52 GMT"
+          "Value": "Wed, 05 Mar 2025 14:59:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2641,6 +2746,88 @@
       ]
     },
     {
+      "Route": "images/carlist/hiace.jpg",
+      "AssetFile": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\images\\carlist\\hiace.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29177"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cl921q/xks54ejkL1/ncOlC3Cwen9hJdw7E/Ck6t8u8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Mar 2025 15:57:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cl921q/xks54ejkL1/ncOlC3Cwen9hJdw7E/Ck6t8u8="
+        }
+      ]
+    },
+    {
+      "Route": "images/carlist/hiace.yseykrwkb1.jpg",
+      "AssetFile": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\images\\carlist\\hiace.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29177"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cl921q/xks54ejkL1/ncOlC3Cwen9hJdw7E/Ck6t8u8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Mar 2025 15:57:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yseykrwkb1"
+        },
+        {
+          "Name": "label",
+          "Value": "images/carlist/hiace.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cl921q/xks54ejkL1/ncOlC3Cwen9hJdw7E/Ck6t8u8="
+        }
+      ]
+    },
+    {
       "Route": "images/carlist/livina.276kghuf2t.jpg",
       "AssetFile": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\images\\carlist\\livina.jpg",
       "Selectors": [],
@@ -3047,6 +3234,334 @@
         {
           "Name": "integrity",
           "Value": "sha256-SmQzaMB+1SQrWUr+bkn+jPS36YcHKq5HcJqJaVBvoIE="
+        }
+      ]
+    },
+    {
+      "Route": "images/carlist/sprinter.avmt371sg9.jpg",
+      "AssetFile": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\images\\carlist\\sprinter.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38199"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BogeFlL54zpMm0rKPz3J0iPZnKTvHNazwH9pbmTzFzU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Mar 2025 16:05:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "avmt371sg9"
+        },
+        {
+          "Name": "label",
+          "Value": "images/carlist/sprinter.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BogeFlL54zpMm0rKPz3J0iPZnKTvHNazwH9pbmTzFzU="
+        }
+      ]
+    },
+    {
+      "Route": "images/carlist/sprinter.jpg",
+      "AssetFile": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\images\\carlist\\sprinter.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38199"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BogeFlL54zpMm0rKPz3J0iPZnKTvHNazwH9pbmTzFzU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Mar 2025 16:05:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BogeFlL54zpMm0rKPz3J0iPZnKTvHNazwH9pbmTzFzU="
+        }
+      ]
+    },
+    {
+      "Route": "images/carlist/starex.3x6ujcevig.jpg",
+      "AssetFile": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\images\\carlist\\starex.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18923"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eT7Fd8VCOhrWkidyfpfkmT1dtKKjHJhHM5S7CM9+AJU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Mar 2025 16:03:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3x6ujcevig"
+        },
+        {
+          "Name": "label",
+          "Value": "images/carlist/starex.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-eT7Fd8VCOhrWkidyfpfkmT1dtKKjHJhHM5S7CM9+AJU="
+        }
+      ]
+    },
+    {
+      "Route": "images/carlist/starex.jpg",
+      "AssetFile": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\images\\carlist\\starex.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18923"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eT7Fd8VCOhrWkidyfpfkmT1dtKKjHJhHM5S7CM9+AJU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Mar 2025 16:03:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-eT7Fd8VCOhrWkidyfpfkmT1dtKKjHJhHM5S7CM9+AJU="
+        }
+      ]
+    },
+    {
+      "Route": "images/carlist/transit.4xkzbrgj1o.jpg",
+      "AssetFile": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\images\\carlist\\transit.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36465"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qEuz/Ckhh/5YzK5qQZW5P6rHvSyyv68G3KFOpg4O6EY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Mar 2025 16:04:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4xkzbrgj1o"
+        },
+        {
+          "Name": "label",
+          "Value": "images/carlist/transit.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qEuz/Ckhh/5YzK5qQZW5P6rHvSyyv68G3KFOpg4O6EY="
+        }
+      ]
+    },
+    {
+      "Route": "images/carlist/transit.jpg",
+      "AssetFile": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\images\\carlist\\transit.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36465"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qEuz/Ckhh/5YzK5qQZW5P6rHvSyyv68G3KFOpg4O6EY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Mar 2025 16:04:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qEuz/Ckhh/5YzK5qQZW5P6rHvSyyv68G3KFOpg4O6EY="
+        }
+      ]
+    },
+    {
+      "Route": "images/carlist/urvan.jpg",
+      "AssetFile": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\images\\carlist\\urvan.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28016"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zYYaRsYSatr8bxiY7VTNi7mrPfb85AEz1qnbct3/fxA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Mar 2025 16:01:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zYYaRsYSatr8bxiY7VTNi7mrPfb85AEz1qnbct3/fxA="
+        }
+      ]
+    },
+    {
+      "Route": "images/carlist/urvan.js3cvjbiex.jpg",
+      "AssetFile": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\images\\carlist\\urvan.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28016"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zYYaRsYSatr8bxiY7VTNi7mrPfb85AEz1qnbct3/fxA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Mar 2025 16:01:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "js3cvjbiex"
+        },
+        {
+          "Name": "label",
+          "Value": "images/carlist/urvan.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zYYaRsYSatr8bxiY7VTNi7mrPfb85AEz1qnbct3/fxA="
         }
       ]
     },

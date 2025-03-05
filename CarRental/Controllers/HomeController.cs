@@ -1,4 +1,4 @@
-using System.Diagnostics;
+﻿using System.Diagnostics;
 using CarRental.Data;
 using CarRental.Models;
 using Microsoft.AspNetCore.Mvc;
@@ -22,18 +22,46 @@ namespace CarRental.Controllers
 
         public async Task<IActionResult> Index()
         {
-
             var cars = await _context.Cars
-                .OrderBy(c => c.CarId) // Sort by CarId
-                .Take(15) // Limit to 15 items
+                .OrderBy(c => c.CarId)
                 .ToListAsync();
 
-            return View(cars); // Pass to view
+         
+            return View(cars);
         }
 
         public IActionResult Privacy()
         {
             return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> SendMessage(string name, string email, string phone, string message)
+        {
+            Console.WriteLine("🔍 Form submitted...");
+
+            if (string.IsNullOrWhiteSpace(name) || string.IsNullOrWhiteSpace(email) || string.IsNullOrWhiteSpace(message))
+            {
+                Console.WriteLine("❌ Missing required fields!");
+                TempData["ErrorMessage"] = "Please fill out all required fields.";
+                return RedirectToAction("Index");
+            }
+
+            var contactMessage = new ContactMessage
+            {
+                Name = name,
+                Email = email,
+                Phone = phone,
+                Message = message
+            };
+
+            _context.ContactMessages.Add(contactMessage);
+            await _context.SaveChangesAsync();
+
+           
+            TempData["SuccessMessage"] = "Your message has been saved!";
+
+            return RedirectToAction("Index");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

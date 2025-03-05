@@ -17,6 +17,9 @@ namespace CarRental.Models
         public string Model { get; set; }
 
         [Required]
+        public int Seaters { get; set; }
+
+        [Required]
         [Column(TypeName = "decimal(18,2)")]
         public decimal RentalPrice { get; set; }
 

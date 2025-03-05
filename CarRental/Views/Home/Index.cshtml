@@ -22,6 +22,7 @@
                     <ul class="nav-menu">
                         <button id="menu-close-button" class="fas fa-times"></button>
 
+
                         <li class="nav-item">
                             <a href="#home" class="nav-link">Home</a>
                         </li>
@@ -35,7 +36,7 @@
                             <a href="#contact" class="nav-link">Contact Us</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#login" class="nav-link">Login</a>
+                        <a asp-controller="Account" asp-action="Login"class="nav-link">Login</a>
                         </li>
                     </ul>
 
@@ -57,8 +58,8 @@
                                 range of reliable and affordable vehicles. Book with ease today!
                             </p>
                             <div class="buttons">
-                                <a href="#" class="button rent">RENT</a>
-                                <a href="#" class="button see-more">SEE MORE</a>
+                                <a href="/Account/Login" class="button rent">RENT</a>
+                                <a href="#about" class="button see-more">SEE MORE</a>
                             </div>
                         </div>
                         <div class="hero-image">
@@ -95,46 +96,14 @@
                     </div>
                 </section>
 
-                <!--CONTACT US-->
-                <section class="contact-section" id="contact">
-                    <div class="section-content">
-                        <div class="contact-info">
-                            <h2 class="section-title">CONTACT US</h2>
-                            <p>Contact us for inquiries or assistance!</p>
-                            <p>📍 Biglang Awa, Caloocan City</p>
-                            <p>📞 Phone: 09061402847</p>
-                            <p>📧 Email: dmcars@gmail.com</p>
-                            <p>🌐 Website: dmcars.com</p>
-                            <p>We look forward to serving you!</p>
-                            <img src="~/images/car.png" alt="Car Image" class="car-image-contact">
-                        </div>
-
-                        <div class="contact-form">
-                            <form action="#">
-                                <label for="name">Name</label>
-                                <input type="text" id="name" placeholder="Enter your name" required>
-
-                                <label for="email">Email</label>
-                                <input type="email" id="email" placeholder="Enter your email" required>
-
-                                <label for="phone">Phone Number</label>
-                                <input type="tel" id="phone" placeholder="Enter your phone number" required>
-
-                                <label for="message">Message</label>
-                                <textarea id="message" placeholder="Write your message" required></textarea>
-
-                                <button type="submit">Submit</button>
-                            </form>
-                        </div>
-                    </div>
-                </section>
+         
 
                 <!--VIEW CARS-->
                 @model IEnumerable<CarRental.Models.Car>
                  <section class="view-cars-section" id="viewCars">
                 <div class="section-content">
                     <h2 class="section-title">VIEW CARS</h2>
-                    <p>Total Cars Displayed: @(Model != null ? Model.Count() : 0)</p>
+                 
 
                     <div class="car-container">
                         @if (Model != null && Model.Any())
@@ -161,32 +130,43 @@
 
 
 
-                <!--LOGIN-->
-                <section class="login-section" id="login">
-                    <div class="left-section">
-                        <h1>DM Online Car Rental</h1>
-                        <button>Learn More</button>
-                        <img src="~/images/car.png" alt="Car" class="car-image-login">
-                    </div>
-                    <div class="login-container">
-                        <h2 class="login-title">Login</h2>
-                        <form action="/login" method="post" class="login-form">
-                            <div class="input-group">
-                                <label for="username">Username</label>
-                                <input type="text" id="username" name="username" required>
-                            </div>
-                            <div class="input-group">
-                                <label for="password">Password</label>
-                                <input type="password" id="password" name="password" required>
-                            </div>
-                            <button type="submit" class="login-button">Login</button>
-                        </form>
-                    <p class="signup-text">
-                        Don’t have an account?
-                        <a asp-controller="Account" asp-action="Signup">Sign Up</a>
-                    </p>
-                    </div>
-                </section>
+
+
+
+        <!--CONTACT US-->
+        <section class="contact-section" id="contact">
+            <div class="section-content">
+                <div class="contact-info">
+                    <h2 class="section-title">CONTACT US</h2>
+                    <p>Contact us for inquiries or assistance!</p>
+                    <p>📍 Biglang Awa, Caloocan City</p>
+                    <p>📞 Phone: 09061402847</p>
+                    <p>📧 Email: dmcars@gmail.com</p>
+                    <p>🌐 Website: dmcars.com</p>
+                    <p>We look forward to serving you!</p>
+                    <img src="~/images/car.png" alt="Car Image" class="car-image-contact">
+                </div>
+
+                <div class="contact-form">
+                    <form asp-controller="Home" asp-action="SendMessage" method="post">
+
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Enter your name" required>
+
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Enter your email" required>
+
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" placeholder="Enter your phone number" required>
+
+                        <label for="message">Message</label>
+                        <textarea id="message" placeholder="Write your message" required></textarea>
+
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
 
             </main>
         </body>

@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CarRental.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250305131604_UpdateDb")]
-    partial class UpdateDb
+    [Migration("20250305173201_addedCcontactMess")]
+    partial class addedCcontactMess
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -48,6 +48,9 @@ namespace CarRental.Migrations
                     b.Property<decimal>("RentalPrice")
                         .HasColumnType("decimal(18,2)");
 
+                    b.Property<int>("Seaters")
+                        .HasColumnType("int");
+
                     b.Property<string>("Status")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -64,6 +67,7 @@ namespace CarRental.Migrations
                             ImageUrl = "vios.jpg",
                             Model = "Vios",
                             RentalPrice = 2000m,
+                            Seaters = 5,
                             Status = "Available"
                         },
                         new
@@ -73,6 +77,7 @@ namespace CarRental.Migrations
                             ImageUrl = "city.jpg",
                             Model = "City",
                             RentalPrice = 2200m,
+                            Seaters = 5,
                             Status = "Available"
                         },
                         new
@@ -82,6 +87,7 @@ namespace CarRental.Migrations
                             ImageUrl = "mirage.jpg",
                             Model = "Mirage G4",
                             RentalPrice = 2000m,
+                            Seaters = 5,
                             Status = "Available"
                         },
                         new
@@ -91,6 +97,7 @@ namespace CarRental.Migrations
                             ImageUrl = "almera.jpg",
                             Model = "Almera",
                             RentalPrice = 2300m,
+                            Seaters = 5,
                             Status = "Available"
                         },
                         new
@@ -100,6 +107,7 @@ namespace CarRental.Migrations
                             ImageUrl = "ecosport.jpg",
                             Model = "EcoSport",
                             RentalPrice = 2800m,
+                            Seaters = 5,
                             Status = "Available"
                         },
                         new
@@ -109,6 +117,7 @@ namespace CarRental.Migrations
                             ImageUrl = "dzire.jpg",
                             Model = "Dzire",
                             RentalPrice = 2000m,
+                            Seaters = 5,
                             Status = "Available"
                         },
                         new
@@ -118,6 +127,7 @@ namespace CarRental.Migrations
                             ImageUrl = "accent.jpg",
                             Model = "Accent",
                             RentalPrice = 2500m,
+                            Seaters = 5,
                             Status = "Available"
                         },
                         new
@@ -127,6 +137,7 @@ namespace CarRental.Migrations
                             ImageUrl = "soluto.jpg",
                             Model = "Soluto",
                             RentalPrice = 2300m,
+                            Seaters = 5,
                             Status = "Available"
                         },
                         new
@@ -136,6 +147,7 @@ namespace CarRental.Migrations
                             ImageUrl = "spark.jpg",
                             Model = "Spark",
                             RentalPrice = 2200m,
+                            Seaters = 5,
                             Status = "Available"
                         },
                         new
@@ -145,6 +157,7 @@ namespace CarRental.Migrations
                             ImageUrl = "sedan.jpg",
                             Model = "2 Sedan",
                             RentalPrice = 2400m,
+                            Seaters = 5,
                             Status = "Available"
                         },
                         new
@@ -154,6 +167,7 @@ namespace CarRental.Migrations
                             ImageUrl = "xv.jpg",
                             Model = "XV",
                             RentalPrice = 3200m,
+                            Seaters = 5,
                             Status = "Available"
                         },
                         new
@@ -163,6 +177,7 @@ namespace CarRental.Migrations
                             ImageUrl = "avanza.jpg",
                             Model = "Avanza",
                             RentalPrice = 3500m,
+                            Seaters = 7,
                             Status = "Available"
                         },
                         new
@@ -172,6 +187,7 @@ namespace CarRental.Migrations
                             ImageUrl = "xpander.jpg",
                             Model = "Xpander",
                             RentalPrice = 3800m,
+                            Seaters = 7,
                             Status = "Available"
                         },
                         new
@@ -181,6 +197,7 @@ namespace CarRental.Migrations
                             ImageUrl = "ertiga.jpg",
                             Model = "Ertiga",
                             RentalPrice = 3200m,
+                            Seaters = 7,
                             Status = "Available"
                         },
                         new
@@ -190,8 +207,91 @@ namespace CarRental.Migrations
                             ImageUrl = "livina.jpg",
                             Model = "Livina",
                             RentalPrice = 3500m,
+                            Seaters = 7,
+                            Status = "Available"
+                        },
+                        new
+                        {
+                            CarId = 16,
+                            Brand = "Toyota",
+                            ImageUrl = "hiace.jpg",
+                            Model = "Hiace",
+                            RentalPrice = 4500m,
+                            Seaters = 12,
+                            Status = "Available"
+                        },
+                        new
+                        {
+                            CarId = 17,
+                            Brand = "Nissan",
+                            ImageUrl = "urvan.jpg",
+                            Model = "Urvan",
+                            RentalPrice = 4400m,
+                            Seaters = 12,
+                            Status = "Available"
+                        },
+                        new
+                        {
+                            CarId = 18,
+                            Brand = "Hyundai",
+                            ImageUrl = "starex.jpg",
+                            Model = "Starex",
+                            RentalPrice = 4600m,
+                            Seaters = 10,
+                            Status = "Available"
+                        },
+                        new
+                        {
+                            CarId = 19,
+                            Brand = "Ford",
+                            ImageUrl = "transit.jpg",
+                            Model = "Transit",
+                            RentalPrice = 4800m,
+                            Seaters = 15,
+                            Status = "Available"
+                        },
+                        new
+                        {
+                            CarId = 20,
+                            Brand = "Mercedes-Benz",
+                            ImageUrl = "sprinter.jpg",
+                            Model = "Sprinter",
+                            RentalPrice = 5000m,
+                            Seaters = 14,
                             Status = "Available"
                         });
+                });
+
+            modelBuilder.Entity("CarRental.Models.ContactMessage", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("DateSubmitted")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Message")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Phone")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("ContactMessages");
                 });
 
             modelBuilder.Entity("CarRental.Models.RentalRequest", b =>

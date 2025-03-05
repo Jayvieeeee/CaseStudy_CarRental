@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace CarRental.Migrations
 {
     /// <inheritdoc />
-    public partial class UpdateDb : Migration
+    public partial class UpdatedDatabase : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -21,6 +21,7 @@ namespace CarRental.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Brand = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Model = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Seaters = table.Column<int>(type: "int", nullable: false),
                     RentalPrice = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
                     ImageUrl = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Status = table.Column<string>(type: "nvarchar(max)", nullable: false)
@@ -136,24 +137,29 @@ namespace CarRental.Migrations
 
             migrationBuilder.InsertData(
                 table: "Cars",
-                columns: new[] { "CarId", "Brand", "ImageUrl", "Model", "RentalPrice", "Status" },
+                columns: new[] { "CarId", "Brand", "ImageUrl", "Model", "RentalPrice", "Seaters", "Status" },
                 values: new object[,]
                 {
-                    { 1, "Toyota", "vios.jpg", "Vios", 2000m, "Available" },
-                    { 2, "Honda", "city.jpg", "City", 2200m, "Available" },
-                    { 3, "Mitsubishi", "mirage.jpg", "Mirage G4", 2000m, "Available" },
-                    { 4, "Nissan", "almera.jpg", "Almera", 2300m, "Available" },
-                    { 5, "Ford", "ecosport.jpg", "EcoSport", 2800m, "Available" },
-                    { 6, "Suzuki", "dzire.jpg", "Dzire", 2000m, "Available" },
-                    { 7, "Hyundai", "accent.jpg", "Accent", 2500m, "Available" },
-                    { 8, "Kia", "soluto.jpg", "Soluto", 2300m, "Available" },
-                    { 9, "Chevrolet", "spark.jpg", "Spark", 2200m, "Available" },
-                    { 10, "Mazda", "sedan.jpg", "2 Sedan", 2400m, "Available" },
-                    { 11, "Subaru", "xv.jpg", "XV", 3200m, "Available" },
-                    { 12, "Toyota", "avanza.jpg", "Avanza", 3500m, "Available" },
-                    { 13, "Mitsubishi", "xpander.jpg", "Xpander", 3800m, "Available" },
-                    { 14, "Suzuki", "ertiga.jpg", "Ertiga", 3200m, "Available" },
-                    { 15, "Nissan", "livina.jpg", "Livina", 3500m, "Available" }
+                    { 1, "Toyota", "vios.jpg", "Vios", 2000m, 5, "Available" },
+                    { 2, "Honda", "city.jpg", "City", 2200m, 5, "Available" },
+                    { 3, "Mitsubishi", "mirage.jpg", "Mirage G4", 2000m, 5, "Available" },
+                    { 4, "Nissan", "almera.jpg", "Almera", 2300m, 5, "Available" },
+                    { 5, "Ford", "ecosport.jpg", "EcoSport", 2800m, 5, "Available" },
+                    { 6, "Suzuki", "dzire.jpg", "Dzire", 2000m, 5, "Available" },
+                    { 7, "Hyundai", "accent.jpg", "Accent", 2500m, 5, "Available" },
+                    { 8, "Kia", "soluto.jpg", "Soluto", 2300m, 5, "Available" },
+                    { 9, "Chevrolet", "spark.jpg", "Spark", 2200m, 5, "Available" },
+                    { 10, "Mazda", "sedan.jpg", "2 Sedan", 2400m, 5, "Available" },
+                    { 11, "Subaru", "xv.jpg", "XV", 3200m, 5, "Available" },
+                    { 12, "Toyota", "avanza.jpg", "Avanza", 3500m, 7, "Available" },
+                    { 13, "Mitsubishi", "xpander.jpg", "Xpander", 3800m, 7, "Available" },
+                    { 14, "Suzuki", "ertiga.jpg", "Ertiga", 3200m, 7, "Available" },
+                    { 15, "Nissan", "livina.jpg", "Livina", 3500m, 7, "Available" },
+                    { 16, "Toyota", "hiace.jpg", "Hiace", 4500m, 12, "Available" },
+                    { 17, "Nissan", "urvan.jpg", "Urvan", 4400m, 12, "Available" },
+                    { 18, "Hyundai", "starex.jpg", "Starex", 4600m, 10, "Available" },
+                    { 19, "Ford", "transit.jpg", "Transit", 4800m, 15, "Available" },
+                    { 20, "Mercedes-Benz", "sprinter.jpg", "Sprinter", 5000m, 14, "Available" }
                 });
 
             migrationBuilder.CreateIndex(
