@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CarRental.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250304172819_addRentTables")]
-    partial class addRentTables
+    [Migration("20250305131604_UpdateDb")]
+    partial class UpdateDb
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -25,7 +25,7 @@ namespace CarRental.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("CarRental.Models.Cars", b =>
+            modelBuilder.Entity("CarRental.Models.Car", b =>
                 {
                     b.Property<int>("CarId")
                         .ValueGeneratedOnAdd()
@@ -55,6 +55,143 @@ namespace CarRental.Migrations
                     b.HasKey("CarId");
 
                     b.ToTable("Cars");
+
+                    b.HasData(
+                        new
+                        {
+                            CarId = 1,
+                            Brand = "Toyota",
+                            ImageUrl = "vios.jpg",
+                            Model = "Vios",
+                            RentalPrice = 2000m,
+                            Status = "Available"
+                        },
+                        new
+                        {
+                            CarId = 2,
+                            Brand = "Honda",
+                            ImageUrl = "city.jpg",
+                            Model = "City",
+                            RentalPrice = 2200m,
+                            Status = "Available"
+                        },
+                        new
+                        {
+                            CarId = 3,
+                            Brand = "Mitsubishi",
+                            ImageUrl = "mirage.jpg",
+                            Model = "Mirage G4",
+                            RentalPrice = 2000m,
+                            Status = "Available"
+                        },
+                        new
+                        {
+                            CarId = 4,
+                            Brand = "Nissan",
+                            ImageUrl = "almera.jpg",
+                            Model = "Almera",
+                            RentalPrice = 2300m,
+                            Status = "Available"
+                        },
+                        new
+                        {
+                            CarId = 5,
+                            Brand = "Ford",
+                            ImageUrl = "ecosport.jpg",
+                            Model = "EcoSport",
+                            RentalPrice = 2800m,
+                            Status = "Available"
+                        },
+                        new
+                        {
+                            CarId = 6,
+                            Brand = "Suzuki",
+                            ImageUrl = "dzire.jpg",
+                            Model = "Dzire",
+                            RentalPrice = 2000m,
+                            Status = "Available"
+                        },
+                        new
+                        {
+                            CarId = 7,
+                            Brand = "Hyundai",
+                            ImageUrl = "accent.jpg",
+                            Model = "Accent",
+                            RentalPrice = 2500m,
+                            Status = "Available"
+                        },
+                        new
+                        {
+                            CarId = 8,
+                            Brand = "Kia",
+                            ImageUrl = "soluto.jpg",
+                            Model = "Soluto",
+                            RentalPrice = 2300m,
+                            Status = "Available"
+                        },
+                        new
+                        {
+                            CarId = 9,
+                            Brand = "Chevrolet",
+                            ImageUrl = "spark.jpg",
+                            Model = "Spark",
+                            RentalPrice = 2200m,
+                            Status = "Available"
+                        },
+                        new
+                        {
+                            CarId = 10,
+                            Brand = "Mazda",
+                            ImageUrl = "sedan.jpg",
+                            Model = "2 Sedan",
+                            RentalPrice = 2400m,
+                            Status = "Available"
+                        },
+                        new
+                        {
+                            CarId = 11,
+                            Brand = "Subaru",
+                            ImageUrl = "xv.jpg",
+                            Model = "XV",
+                            RentalPrice = 3200m,
+                            Status = "Available"
+                        },
+                        new
+                        {
+                            CarId = 12,
+                            Brand = "Toyota",
+                            ImageUrl = "avanza.jpg",
+                            Model = "Avanza",
+                            RentalPrice = 3500m,
+                            Status = "Available"
+                        },
+                        new
+                        {
+                            CarId = 13,
+                            Brand = "Mitsubishi",
+                            ImageUrl = "xpander.jpg",
+                            Model = "Xpander",
+                            RentalPrice = 3800m,
+                            Status = "Available"
+                        },
+                        new
+                        {
+                            CarId = 14,
+                            Brand = "Suzuki",
+                            ImageUrl = "ertiga.jpg",
+                            Model = "Ertiga",
+                            RentalPrice = 3200m,
+                            Status = "Available"
+                        },
+                        new
+                        {
+                            CarId = 15,
+                            Brand = "Nissan",
+                            ImageUrl = "livina.jpg",
+                            Model = "Livina",
+                            RentalPrice = 3500m,
+                            Status = "Available"
+                        });
                 });
 
             modelBuilder.Entity("CarRental.Models.RentalRequest", b =>
@@ -225,7 +362,7 @@ namespace CarRental.Migrations
 
             modelBuilder.Entity("CarRental.Models.RentalRequest", b =>
                 {
-                    b.HasOne("CarRental.Models.Cars", "Car")
+                    b.HasOne("CarRental.Models.Car", "Car")
                         .WithMany()
                         .HasForeignKey("CarId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -244,7 +381,7 @@ namespace CarRental.Migrations
 
             modelBuilder.Entity("CarRental.Models.Rentals", b =>
                 {
-                    b.HasOne("CarRental.Models.Cars", "Car")
+                    b.HasOne("CarRental.Models.Car", "Cars")
                         .WithMany()
                         .HasForeignKey("CarId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -256,7 +393,7 @@ namespace CarRental.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Car");
+                    b.Navigation("Cars");
 
                     b.Navigation("Renters");
                 });

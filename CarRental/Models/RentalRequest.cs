@@ -25,6 +25,6 @@ namespace CarRental.Models
             public string Status { get; set; } // "Pending", "Approved", "Rejected"
 
             public Renters Renters { get; set; }
-            public Cars Car { get; set; }
+            public Car Car { get; set; }
     }
 }

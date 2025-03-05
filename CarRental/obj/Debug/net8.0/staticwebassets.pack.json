@@ -1,20 +1,8 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\css\\home.css",
-      "PackagePath": "staticwebassets\\css\\home.css"
-    },
-    {
-      "Id": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\css\\login.css",
-      "PackagePath": "staticwebassets\\css\\login.css"
-    },
-    {
-      "Id": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\css\\signup.css",
-      "PackagePath": "staticwebassets\\css\\signup.css"
-    },
-    {
-      "Id": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\css\\site.css",
-      "PackagePath": "staticwebassets\\css\\site.css"
+      "Id": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
       "Id": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\favicon.ico",
@@ -85,8 +73,8 @@
       "PackagePath": "staticwebassets\\images\\carlist\\xv.jpg"
     },
     {
-      "Id": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\js\\site.js",
-      "PackagePath": "staticwebassets\\js\\site.js"
+      "Id": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\js\\script.js",
+      "PackagePath": "staticwebassets\\js\\script.js"
     },
     {
       "Id": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\lib\\bootstrap\\LICENSE",

@@ -24,6 +24,6 @@ namespace CarRental.Models
         public string Status { get; set; } // "On-Going", "Completed", "Cancelled"
 
         public Renters Renters { get; set; }
-        public Cars Car { get; set; }
+        public Car Cars { get; set; }
     }
 }

@@ -22,7 +22,7 @@ namespace CarRental.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("CarRental.Models.Cars", b =>
+            modelBuilder.Entity("CarRental.Models.Car", b =>
                 {
                     b.Property<int>("CarId")
                         .ValueGeneratedOnAdd()
@@ -359,7 +359,7 @@ namespace CarRental.Migrations
 
             modelBuilder.Entity("CarRental.Models.RentalRequest", b =>
                 {
-                    b.HasOne("CarRental.Models.Cars", "Car")
+                    b.HasOne("CarRental.Models.Car", "Car")
                         .WithMany()
                         .HasForeignKey("CarId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -378,7 +378,7 @@ namespace CarRental.Migrations
 
             modelBuilder.Entity("CarRental.Models.Rentals", b =>
                 {
-                    b.HasOne("CarRental.Models.Cars", "Car")
+                    b.HasOne("CarRental.Models.Car", "Cars")
                         .WithMany()
                         .HasForeignKey("CarId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -390,7 +390,7 @@ namespace CarRental.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Car");
+                    b.Navigation("Cars");
 
                     b.Navigation("Renters");
                 });
