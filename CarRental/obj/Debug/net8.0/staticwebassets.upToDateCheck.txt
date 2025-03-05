@@ -1,3 +1,5 @@
+wwwroot\css\login.css
+wwwroot\css\signup.css
 wwwroot\css\style.css
 wwwroot\favicon.ico
 wwwroot\images\car.png
