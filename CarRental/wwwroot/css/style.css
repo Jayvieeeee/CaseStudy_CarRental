@@ -80,13 +80,14 @@ header {
         align-items: center;
         justify-content: space-between;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        background: #D2042D;
     }
 
 .navbar .nav-logo .logo-text {
-    color: #000;
     font-size: 35px;
     font-weight: 30px;
     margin-left: 100px;
+    color: #fff;
 }
 
 .navbar .nav-menu {
@@ -98,14 +99,14 @@ header {
     .navbar .nav-menu .nav-link {
         padding: 10px 18px;
         font-size: 17px;
-        color: #000;
+        color: #fff;
         border-radius: 20px;
         transition: 0.3s ease;
     }
 
         .navbar .nav-menu .nav-link:hover {
-            color: #fff;
-            background: #D2042D;
+            color: #000;
+            background: #fff;
         }
 
 .nav-link {
@@ -117,6 +118,7 @@ header {
     .nav-link.active {
         background-color: #D2042D;
         color: white;
+        font-weight: bold;
     }
 
 
@@ -354,8 +356,8 @@ header {
     filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, 0.2)); /* Adjust margin to move it closer to the text */
 }
 
-
 /* LOGIN SECTION */
+
 .login-section {
     display: flex;
     justify-content: center;
@@ -366,16 +368,15 @@ header {
 }
 
 .left-section {
-    background-color: #D2042D; /* Unified color */
+    background-color: #D2042D;
     color: white;
     display: flex;
+    height: 100vh;
     flex-direction: column;
     align-items: center;
-    justify-content: center; /* Center-align for consistent design */
-    padding: 60px 50px;
-    text-align: center;
+    justify-content: flex-start;
     max-width: 90%;
-    height: 100vh; /* Ensure full height */
+    text-align: center;
 }
 
     .left-section button {
@@ -391,14 +392,44 @@ header {
     }
 
 .car-image-login {
-    width: 500px; /* Consistent size */
+    width: 500px; /* Adjust the size if needed */
     height: auto;
     max-width: 100%;
     display: block;
-    margin: 0;
-    transform: scaleX(-1); /* Ensure consistent transformation */
+    margin: 0; /* Remove any margins */
+    transform: scaleX(-1);
 }
 
+
+/* LOGIN BOX */
+.login-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #fff;
+}
+
+.left-section {
+    background-color: #c62828;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 50px;
+    text-align: center;
+}
+
+.car-image-login {
+    width: 900px;
+    height: auto;
+    margin-top: 20px;
+    transform: scaleX(1);
+}
+
+
+/* LOGIN BOX */
 .login-container {
     background: #e5e7e9;
     padding: 40px;
@@ -471,7 +502,6 @@ header {
         border-right: 150px solid #fff;
     }
 }
-
 
 @media screen and (max-width: 900px) {
 

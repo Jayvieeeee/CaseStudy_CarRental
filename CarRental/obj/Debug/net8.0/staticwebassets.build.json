@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "f8mxH4GoCgR9/wCvPC+gEVGR8ltAW30bEvMooNAQjIM=",
+  "Hash": "0peOkm91nEPAFqfvCJw8HE6V7xiUktwGaDgN5oqnmBg=",
   "Source": "CarRental",
   "BasePath": "_content/CarRental",
   "Mode": "Default",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "aanp9pnpdn",
-      "Integrity": "Ip9a2Hdyn9ELtOcEbyDAAwPJ7CMsgJ/iWFHhd2ZKwL0=",
+      "Fingerprint": "an5aenp7t4",
+      "Integrity": "FhVMMv6m145pVNkh4BsxXQl+vmgTmOm4HmCvrJ4gXtM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\style.css"
@@ -1615,7 +1615,7 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/style.aanp9pnpdn.css",
+      "Route": "css/style.an5aenp7t4.css",
       "AssetFile": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\css\\style.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1625,7 +1625,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12455"
+          "Value": "12928"
         },
         {
           "Name": "Content-Type",
@@ -1633,11 +1633,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Ip9a2Hdyn9ELtOcEbyDAAwPJ7CMsgJ/iWFHhd2ZKwL0=\""
+          "Value": "\"FhVMMv6m145pVNkh4BsxXQl+vmgTmOm4HmCvrJ4gXtM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Mar 2025 09:34:52 GMT"
+          "Value": "Wed, 05 Mar 2025 09:59:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1647,7 +1647,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "aanp9pnpdn"
+          "Value": "an5aenp7t4"
         },
         {
           "Name": "label",
@@ -1655,7 +1655,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Ip9a2Hdyn9ELtOcEbyDAAwPJ7CMsgJ/iWFHhd2ZKwL0="
+          "Value": "sha256-FhVMMv6m145pVNkh4BsxXQl+vmgTmOm4HmCvrJ4gXtM="
         }
       ]
     },
@@ -1670,7 +1670,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12455"
+          "Value": "12928"
         },
         {
           "Name": "Content-Type",
@@ -1678,11 +1678,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Ip9a2Hdyn9ELtOcEbyDAAwPJ7CMsgJ/iWFHhd2ZKwL0=\""
+          "Value": "\"FhVMMv6m145pVNkh4BsxXQl+vmgTmOm4HmCvrJ4gXtM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Mar 2025 09:34:52 GMT"
+          "Value": "Wed, 05 Mar 2025 09:59:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1692,7 +1692,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Ip9a2Hdyn9ELtOcEbyDAAwPJ7CMsgJ/iWFHhd2ZKwL0="
+          "Value": "sha256-FhVMMv6m145pVNkh4BsxXQl+vmgTmOm4HmCvrJ4gXtM="
         }
       ]
     },
@@ -3113,7 +3113,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Mar 2025 09:18:44 GMT"
+          "Value": "Wed, 05 Mar 2025 09:39:35 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3150,7 +3150,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Mar 2025 09:18:44 GMT"
+          "Value": "Wed, 05 Mar 2025 09:39:35 GMT"
         },
         {
           "Name": "Cache-Control",
