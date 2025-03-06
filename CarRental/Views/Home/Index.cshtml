@@ -9,6 +9,7 @@
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>Car Rental</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
             <link rel="stylesheet" href="~/css/style.css">
         </head>
@@ -45,6 +46,7 @@
             </header>
 
             <main>
+
                 <!--HERO SECTION-->
                 <section class="hero-section" id="home">
                     <div class="section-content">
@@ -96,26 +98,32 @@
                     </div>
                 </section>
 
-         
+        <!--VIEW CARS-->
+        @model IEnumerable<CarRental.Models.Car>
+        <section class="view-cars-section" id="viewCars">
+            <div class="section-content">
+                <h2 class="section-title">VIEW CARS</h2>
 
-                <!--VIEW CARS-->
-                @model IEnumerable<CarRental.Models.Car>
-                 <section class="view-cars-section" id="viewCars">
-                <div class="section-content">
-                    <h2 class="section-title">VIEW CARS</h2>
-                 
-
-                    <div class="car-container">
+                <!-- Swiper container -->
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
                         @if (Model != null && Model.Any())
                         {
                             @foreach (var car in Model)
                             {
-                                <div class="car">
-                                    <img src="~/images/carlist/@car.ImageUrl" alt="@car.Model">
-                                    <h3>@car.Brand</h3>
-                                    <p class="price">&#8369;@car.RentalPrice Per Day</p>
-                                    <p>Model: @car.Model</p>
-                                    <p>Seater: 5 Seater</p>
+                                <div class="swiper-slide">
+                                    <div class="car">
+                                        <img src="~/images/carlist/@car.ImageUrl" alt="@car.Model">
+                                        <h3>@car.Brand</h3>
+
+                                        <div class="price-button-container">
+                                            <p class="price">&#8369;@car.RentalPrice Per Day</p>
+                                            <button class="interested-btn">Interested</button>
+                                        </div>
+
+                                        <p>Model: @car.Model</p>
+                                        <p>Seater: 5 Seater</p>
+                                    </div>
                                 </div>
                             }
                         }
@@ -124,12 +132,13 @@
                             <p>No cars available.</p>
                         }
                     </div>
+
+                    <!-- Navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
                 </div>
-            </section>
-           
-
-
-
+            </div>
+        </section>
 
 
 
@@ -171,7 +180,7 @@
             </main>
         </body>
 <script src="~/js/script.js"></script>
-
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
         </html>
 
 
