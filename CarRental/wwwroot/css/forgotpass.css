@@ -1,0 +1,165 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    width: 40%;
+    z-index: 2;
+}
+
+@media (min-width: 768px) {
+    body {
+        flex-direction: row;
+    }
+}
+
+.left-section {
+    background-color: #D2042D;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 60px 80px;
+    position: relative;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .left-section {
+        width: 45%;
+        border-left: 150px solid #fff;
+    }
+}
+
+.left-section img {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    max-width: 80px;
+    margin-bottom: 0;
+}
+
+.left-section h1 {
+    margin-top: 100px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.2;
+    z-index: 1;
+}
+
+.left-section button {
+    background: white;
+    color: #D2042D;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.right-section {
+    width: 100%;
+    background: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    position: relative;
+}
+
+@media (min-width: 768px) {
+    .right-section {
+        width: 50%;
+    }
+}
+
+.nav-bar {
+    position: static;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .nav-bar {
+        position: absolute;
+        top: 20px;
+        margin-right: 70px;
+    }
+}
+
+.nav-bar a {
+    padding: 25px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.forgot-password--box {
+    align-items: center;
+    height: 60%;
+    max-width: 400px;
+    background: #e5e7e9;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+    .forgot-password--box h2 {
+        font-size: 30px;
+        margin-bottom: 30px;
+        color: #D2042D;
+        text-align: center;
+    }
+
+    .forgot-password--box input {
+        width: 100%;
+        padding: 12px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 30px;
+        font-size: 1rem;
+    }
+
+    .forgot-password--box button {
+        width: 100%;
+        padding: 12px;
+        background-color: #D2042D;
+        color: white;
+        border: none;
+        border-radius: 30px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        font-size: 1rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: 0.3s ease;
+    }
+
+        .forgot-password--box button:hover {
+            background-color: #a10224;
+        }
+
+.text-danger {
+    color: #D2042D;
+    font-weight: 600;
+    text-align: center;
+}

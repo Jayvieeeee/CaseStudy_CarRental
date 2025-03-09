@@ -3,19 +3,100 @@
   "WorkspaceRootPath": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\",
   "Documents": [
     {
-<<<<<<< Updated upstream
-      "AbsoluteMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|c:\\users\\jayvie\\desktop\\casestudy_carrental\\carrental\\wwwroot\\js\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|solutionrelative:carrental\\wwwroot\\js\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|c:\\users\\jayvie\\desktop\\casestudy_carrental\\carrental\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|solutionrelative:carrental\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-=======
->>>>>>> Stashed changes
+      "AbsoluteMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|c:\\users\\jayvie\\desktop\\casestudy_carrental\\carrental\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|solutionrelative:carrental\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|c:\\users\\jayvie\\desktop\\casestudy_carrental\\carrental\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|solutionrelative:carrental\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|c:\\users\\jayvie\\desktop\\casestudy_carrental\\carrental\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|solutionrelative:carrental\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|c:\\users\\jayvie\\desktop\\casestudy_carrental\\carrental\\wwwroot\\css\\signup.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|solutionrelative:carrental\\wwwroot\\css\\signup.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|c:\\users\\jayvie\\desktop\\casestudy_carrental\\carrental\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|solutionrelative:carrental\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|c:\\users\\jayvie\\desktop\\casestudy_carrental\\carrental\\wwwroot\\css\\forgotpass.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|solutionrelative:carrental\\wwwroot\\css\\forgotpass.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|c:\\users\\jayvie\\desktop\\casestudy_carrental\\carrental\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|solutionrelative:carrental\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|c:\\users\\jayvie\\desktop\\casestudy_carrental\\carrental\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|solutionrelative:carrental\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|c:\\users\\jayvie\\desktop\\casestudy_carrental\\carrental\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|solutionrelative:carrental\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|c:\\users\\jayvie\\desktop\\casestudy_carrental\\carrental\\migrations\\20250305160812_updateddatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|solutionrelative:carrental\\migrations\\20250305160812_updateddatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|c:\\users\\jayvie\\desktop\\casestudy_carrental\\carrental\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|solutionrelative:carrental\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|c:\\users\\jayvie\\desktop\\casestudy_carrental\\carrental\\services\\emailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|solutionrelative:carrental\\services\\emailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|c:\\users\\jayvie\\desktop\\casestudy_carrental\\carrental\\migrations\\20250308181327_updateeeee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|solutionrelative:carrental\\migrations\\20250308181327_updateeeee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|c:\\users\\jayvie\\desktop\\casestudy_carrental\\carrental\\views\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|solutionrelative:carrental\\views\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|c:\\users\\jayvie\\desktop\\casestudy_carrental\\carrental\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|solutionrelative:carrental\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|c:\\users\\jayvie\\desktop\\casestudy_carrental\\carrental\\models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|solutionrelative:carrental\\models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|c:\\users\\jayvie\\desktop\\casestudy_carrental\\carrental\\views\\account\\verifycode.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|solutionrelative:carrental\\views\\account\\verifycode.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|c:\\users\\jayvie\\desktop\\casestudy_carrental\\carrental\\views\\account\\securepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|solutionrelative:carrental\\views\\account\\securepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|c:\\users\\jayvie\\desktop\\casestudy_carrental\\carrental\\models\\signupviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|solutionrelative:carrental\\models\\signupviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|c:\\users\\jayvie\\desktop\\casestudy_carrental\\carrental\\migrations\\20250309052620_updateee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|solutionrelative:carrental\\migrations\\20250309052620_updateee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|c:\\users\\jayvie\\desktop\\casestudy_carrental\\carrental\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|solutionrelative:carrental\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|c:\\users\\jayvie\\desktop\\casestudy_carrental\\carrental\\wwwroot\\css\\forgotpass.css||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|solutionrelative:carrental\\wwwroot\\css\\forgotpass.css||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|c:\\users\\jayvie\\desktop\\casestudy_carrental\\carrental\\migrations\\20250309044555_verificationcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|solutionrelative:carrental\\migrations\\20250309044555_verificationcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|c:\\users\\jayvie\\desktop\\casestudy_carrental\\carrental\\migrations\\20250309063318_removeverification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|solutionrelative:carrental\\migrations\\20250309063318_removeverification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,11 +106,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-<<<<<<< Updated upstream
-          "SelectedChildIndex": 4,
-=======
-          "SelectedChildIndex": 5,
->>>>>>> Stashed changes
+          "SelectedChildIndex": 21,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,70 +123,296 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-<<<<<<< Updated upstream
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "script.js",
-              "DocumentMoniker": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\js\\script.js",
-              "RelativeDocumentMoniker": "CarRental\\wwwroot\\js\\script.js",
-              "ToolTip": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\js\\script.js*",
-              "RelativeToolTip": "CarRental\\wwwroot\\js\\script.js*",
-              "ViewState": "AgIAABUAAAAAAAAAAADwvzYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-03-05T19:04:02.714Z",
-              "EditorCaption": ""
+              "DocumentIndex": 6,
+              "Title": "ContactController.cs",
+              "DocumentMoniker": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\CarRental\\Controllers\\ContactController.cs",
+              "RelativeDocumentMoniker": "CarRental\\Controllers\\ContactController.cs",
+              "ToolTip": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\CarRental\\Controllers\\ContactController.cs",
+              "RelativeToolTip": "CarRental\\Controllers\\ContactController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T08:15:03.126Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\CarRental\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "CarRental\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\CarRental\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "CarRental\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T08:15:03.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "forgotpass.css",
+              "DocumentMoniker": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\css\\forgotpass.css",
+              "RelativeDocumentMoniker": "CarRental\\wwwroot\\css\\forgotpass.css",
+              "ToolTip": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\css\\forgotpass.css",
+              "RelativeToolTip": "CarRental\\wwwroot\\css\\forgotpass.css",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAAAH4AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-09T08:15:03.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "login.css",
+              "DocumentMoniker": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\css\\login.css",
+              "RelativeDocumentMoniker": "CarRental\\wwwroot\\css\\login.css",
+              "ToolTip": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\css\\login.css",
+              "RelativeToolTip": "CarRental\\wwwroot\\css\\login.css",
+              "ViewState": "AgIAAKIAAAAAAAAAAAAAALYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-09T08:15:03.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "signup.css",
+              "DocumentMoniker": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\css\\signup.css",
+              "RelativeDocumentMoniker": "CarRental\\wwwroot\\css\\signup.css",
+              "ToolTip": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\css\\signup.css",
+              "RelativeToolTip": "CarRental\\wwwroot\\css\\signup.css",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-09T08:15:03.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "style.css",
               "DocumentMoniker": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\css\\style.css",
               "RelativeDocumentMoniker": "CarRental\\wwwroot\\css\\style.css",
               "ToolTip": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\css\\style.css",
               "RelativeToolTip": "CarRental\\wwwroot\\css\\style.css",
-              "ViewState": "AgIAAGsCAAAAAAAAAAAwwH4CAAABAAAAAAAAAA==",
+              "ViewState": "AgIAANoCAAAAAAAAAAAwwH4CAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-03-05T18:33:46.842Z",
-              "EditorCaption": ""
-=======
->>>>>>> Stashed changes
+              "WhenOpened": "2025-03-09T08:15:03.138Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\CarRental\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "CarRental\\Views\\Home\\Index.cshtml",
-<<<<<<< Updated upstream
-              "ToolTip": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\CarRental\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "CarRental\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAHoAAAAAAAAAAAAAAI4AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "20250305160812_UpdatedDatabase.cs",
+              "DocumentMoniker": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\CarRental\\Migrations\\20250305160812_UpdatedDatabase.cs",
+              "RelativeDocumentMoniker": "CarRental\\Migrations\\20250305160812_UpdatedDatabase.cs",
+              "ToolTip": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\CarRental\\Migrations\\20250305160812_UpdatedDatabase.cs",
+              "RelativeToolTip": "CarRental\\Migrations\\20250305160812_UpdatedDatabase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T08:15:03.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\CarRental\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "CarRental\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\CarRental\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "CarRental\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T08:15:03.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\CarRental\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "CarRental\\Services\\EmailService.cs",
+              "ToolTip": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\CarRental\\Services\\EmailService.cs",
+              "RelativeToolTip": "CarRental\\Services\\EmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T08:15:03.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EmailSettings.cs",
+              "DocumentMoniker": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\CarRental\\Services\\EmailSettings.cs",
+              "RelativeDocumentMoniker": "CarRental\\Services\\EmailSettings.cs",
+              "ToolTip": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\CarRental\\Services\\EmailSettings.cs",
+              "RelativeToolTip": "CarRental\\Services\\EmailSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T08:15:03.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20250308181327_Updateeeee.cs",
+              "DocumentMoniker": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\CarRental\\Migrations\\20250308181327_Updateeeee.cs",
+              "RelativeDocumentMoniker": "CarRental\\Migrations\\20250308181327_Updateeeee.cs",
+              "ToolTip": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\CarRental\\Migrations\\20250308181327_Updateeeee.cs",
+              "RelativeToolTip": "CarRental\\Migrations\\20250308181327_Updateeeee.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T08:15:03.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Car.cs",
+              "DocumentMoniker": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\CarRental\\Models\\Car.cs",
+              "RelativeDocumentMoniker": "CarRental\\Models\\Car.cs",
+              "ToolTip": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\CarRental\\Models\\Car.cs",
+              "RelativeToolTip": "CarRental\\Models\\Car.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T08:15:03.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ResetPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\CarRental\\Views\\Account\\ResetPassword.cshtml",
+              "RelativeDocumentMoniker": "CarRental\\Views\\Account\\ResetPassword.cshtml",
+              "ToolTip": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\CarRental\\Views\\Account\\ResetPassword.cshtml",
+              "RelativeToolTip": "CarRental\\Views\\Account\\ResetPassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-05T18:32:27.331Z",
-              "EditorCaption": ""
-=======
-              "ToolTip": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\CarRental\\Views\\Home\\Index.cshtml*",
-              "RelativeToolTip": "CarRental\\Views\\Home\\Index.cshtml*",
-              "ViewState": "AgIAAIIAAAAAAAAAAAAAAJYAAABSAAAAAAAAAA==",
+              "WhenOpened": "2025-03-09T08:15:03.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\CarRental\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "CarRental\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\CarRental\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "CarRental\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAOMBAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T08:15:03.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "VerifyCode.cshtml",
+              "DocumentMoniker": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\CarRental\\Views\\Account\\VerifyCode.cshtml",
+              "RelativeDocumentMoniker": "CarRental\\Views\\Account\\VerifyCode.cshtml",
+              "ToolTip": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\CarRental\\Views\\Account\\VerifyCode.cshtml",
+              "RelativeToolTip": "CarRental\\Views\\Account\\VerifyCode.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-05T17:55:38.261Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-09T08:15:03.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SecurePage.cshtml",
+              "DocumentMoniker": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\CarRental\\Views\\Account\\SecurePage.cshtml",
+              "RelativeDocumentMoniker": "CarRental\\Views\\Account\\SecurePage.cshtml",
+              "ToolTip": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\CarRental\\Views\\Account\\SecurePage.cshtml",
+              "RelativeToolTip": "CarRental\\Views\\Account\\SecurePage.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-09T08:15:03.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SignupViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\CarRental\\Models\\SignupViewModel.cs",
+              "RelativeDocumentMoniker": "CarRental\\Models\\SignupViewModel.cs",
+              "ToolTip": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\CarRental\\Models\\SignupViewModel.cs",
+              "RelativeToolTip": "CarRental\\Models\\SignupViewModel.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T08:15:03.169Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "style.css",
-              "DocumentMoniker": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\css\\style.css",
-              "RelativeDocumentMoniker": "CarRental\\wwwroot\\css\\style.css",
-              "ToolTip": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\css\\style.css*",
-              "RelativeToolTip": "CarRental\\wwwroot\\css\\style.css*",
-              "ViewState": "AgIAAMACAAAAAAAAAAAAANoCAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-03-05T17:55:30.711Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\CarRental\\appsettings.json",
+              "RelativeDocumentMoniker": "CarRental\\appsettings.json",
+              "ToolTip": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\CarRental\\appsettings.json",
+              "RelativeToolTip": "CarRental\\appsettings.json",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-09T08:15:03.171Z",
               "EditorCaption": ""
->>>>>>> Stashed changes
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\CarRental\\Program.cs",
+              "RelativeDocumentMoniker": "CarRental\\Program.cs",
+              "ToolTip": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\CarRental\\Program.cs",
+              "RelativeToolTip": "CarRental\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T08:15:03.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "20250309063318_removeverification.cs",
+              "DocumentMoniker": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\CarRental\\Migrations\\20250309063318_removeverification.cs",
+              "RelativeDocumentMoniker": "CarRental\\Migrations\\20250309063318_removeverification.cs",
+              "ToolTip": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\CarRental\\Migrations\\20250309063318_removeverification.cs",
+              "RelativeToolTip": "CarRental\\Migrations\\20250309063318_removeverification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T08:15:03.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "20250309052620_updateee.cs",
+              "DocumentMoniker": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\CarRental\\Migrations\\20250309052620_updateee.cs",
+              "RelativeDocumentMoniker": "CarRental\\Migrations\\20250309052620_updateee.cs",
+              "ToolTip": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\CarRental\\Migrations\\20250309052620_updateee.cs",
+              "RelativeToolTip": "CarRental\\Migrations\\20250309052620_updateee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T08:15:03.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "20250309044555_verificationcode.cs",
+              "DocumentMoniker": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\CarRental\\Migrations\\20250309044555_verificationcode.cs",
+              "RelativeDocumentMoniker": "CarRental\\Migrations\\20250309044555_verificationcode.cs",
+              "ToolTip": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\CarRental\\Migrations\\20250309044555_verificationcode.cs",
+              "RelativeToolTip": "CarRental\\Migrations\\20250309044555_verificationcode.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T08:15:03.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\CarRental\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "CarRental\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\CarRental\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "CarRental\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T08:15:03.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "forgotpass.css",
+              "DocumentMoniker": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\css\\forgotpass.css",
+              "RelativeDocumentMoniker": "CarRental\\wwwroot\\css\\forgotpass.css",
+              "ToolTip": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\css\\forgotpass.css",
+              "RelativeToolTip": "CarRental\\wwwroot\\css\\forgotpass.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-09T08:15:03.189Z"
             }
           ]
         },
@@ -119,11 +422,11 @@
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             }
           ]
         }
