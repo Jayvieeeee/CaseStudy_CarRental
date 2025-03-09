@@ -3,10 +3,13 @@
   "WorkspaceRootPath": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\",
   "Documents": [
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|c:\\users\\jayvie\\desktop\\casestudy_carrental\\carrental\\wwwroot\\js\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|solutionrelative:carrental\\wwwroot\\js\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
+=======
+>>>>>>> Stashed changes
       "AbsoluteMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|c:\\users\\jayvie\\desktop\\casestudy_carrental\\carrental\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|solutionrelative:carrental\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
@@ -22,7 +25,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< Updated upstream
           "SelectedChildIndex": 4,
+=======
+          "SelectedChildIndex": 5,
+>>>>>>> Stashed changes
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,6 +49,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 0,
               "Title": "script.js",
               "DocumentMoniker": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\js\\script.js",
@@ -69,14 +77,36 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+=======
+              "DocumentIndex": 1,
+>>>>>>> Stashed changes
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\CarRental\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "CarRental\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\CarRental\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "CarRental\\Views\\Home\\Index.cshtml",
+<<<<<<< Updated upstream
               "ViewState": "AgIAAHoAAAAAAAAAAAAAAI4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-05T18:32:27.331Z",
+=======
+              "ViewState": "AgIAAGIAAAAAAAAAAAAqwKAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-05T17:55:38.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\css\\style.css",
+              "RelativeDocumentMoniker": "CarRental\\wwwroot\\css\\style.css",
+              "ToolTip": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\css\\style.css",
+              "RelativeToolTip": "CarRental\\wwwroot\\css\\style.css",
+              "ViewState": "AgIAAL0CAAAAAAAAAAAAANoCAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-05T17:55:30.711Z",
+>>>>>>> Stashed changes
               "EditorCaption": ""
             }
           ]

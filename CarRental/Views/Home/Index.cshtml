@@ -111,6 +111,7 @@
                         {
                             @foreach (var car in Model)
                             {
+<<<<<<< Updated upstream
                                 <div class="swiper-slide">
                                     <div class="car">
                                         <img src="~/images/carlist/@car.ImageUrl" alt="@car.Model">
@@ -124,6 +125,16 @@
                                         <p>Model: @car.Model</p>
                                         <p>Seater: 5 Seater</p>
                                     </div>
+=======
+                                <div class="car">
+                                    <img src="~/images/carlist/@car.ImageUrl" alt="@car.Model">
+                                    <h3>@car.Brand</h3>
+                                    <p class="price">&#8369;@car.RentalPrice Per Day</p>
+                                    <p>Model: @car.Model</p>
+                                    <p>Seater: 5 Seater</p>
+                                <!-- Button placed correctly under the price -->
+                                <button class="interested-btn">Interested</button>
+>>>>>>> Stashed changes
                                 </div>
                             }
                         }

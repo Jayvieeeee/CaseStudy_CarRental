@@ -85,6 +85,51 @@
       ]
     },
     {
+      "Route": "css/signup.b549yp74w3.css",
+      "AssetFile": "css/signup.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1475"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"P1P2NDhmjtw0YzvsvkxICAv+jnipQc8hYtjg8Yx+ErA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Mar 2025 17:14:13 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "b549yp74w3"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-P1P2NDhmjtw0YzvsvkxICAv+jnipQc8hYtjg8Yx+ErA="
+        },
+        {
+          "Name": "label",
+          "Value": "css/signup.css"
+        }
+      ]
+    },
+    {
       "Route": "css/signup.css",
       "AssetFile": "css/signup.css",
       "Selectors": [],
@@ -99,7 +144,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3152"
+          "Value": "1475"
         },
         {
           "Name": "Content-Type",
@@ -107,23 +152,32 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"LYsWU0YhE0Ab+5bIFM8x5FeA9t6pTg5GxnHJ49Atl5k=\""
+          "Value": "\"P1P2NDhmjtw0YzvsvkxICAv+jnipQc8hYtjg8Yx+ErA=\""
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Wed, 05 Mar 2025 18:27:29 GMT"
+=======
+          "Value": "Wed, 05 Mar 2025 17:14:13 GMT"
+>>>>>>> Stashed changes
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-LYsWU0YhE0Ab+5bIFM8x5FeA9t6pTg5GxnHJ49Atl5k="
+          "Value": "sha256-P1P2NDhmjtw0YzvsvkxICAv+jnipQc8hYtjg8Yx+ErA="
         }
       ]
     },
     {
+<<<<<<< Updated upstream
       "Route": "css/signup.dowjr1kqac.css",
       "AssetFile": "css/signup.css",
+=======
+      "Route": "css/style.92mep99ddj.css",
+      "AssetFile": "css/style.css",
+>>>>>>> Stashed changes
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -136,7 +190,11 @@
         },
         {
           "Name": "Content-Length",
+<<<<<<< Updated upstream
           "Value": "3152"
+=======
+          "Value": "16100"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Content-Type",
@@ -144,16 +202,25 @@
         },
         {
           "Name": "ETag",
+<<<<<<< Updated upstream
           "Value": "\"LYsWU0YhE0Ab+5bIFM8x5FeA9t6pTg5GxnHJ49Atl5k=\""
         },
         {
           "Name": "Last-Modified",
           "Value": "Wed, 05 Mar 2025 18:27:29 GMT"
+=======
+          "Value": "\"MbSkTZxRXnZHqi+rhwmjrz1Wb+1JBN/6mraiAQdtpcM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Mar 2025 18:14:19 GMT"
+>>>>>>> Stashed changes
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
+<<<<<<< Updated upstream
           "Value": "dowjr1kqac"
         },
         {
@@ -163,6 +230,17 @@
         {
           "Name": "label",
           "Value": "css/signup.css"
+=======
+          "Value": "92mep99ddj"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MbSkTZxRXnZHqi+rhwmjrz1Wb+1JBN/6mraiAQdtpcM="
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css"
+>>>>>>> Stashed changes
         }
       ]
     },
@@ -181,7 +259,11 @@
         },
         {
           "Name": "Content-Length",
+<<<<<<< Updated upstream
           "Value": "15338"
+=======
+          "Value": "16100"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Content-Type",
@@ -189,16 +271,25 @@
         },
         {
           "Name": "ETag",
+<<<<<<< Updated upstream
           "Value": "\"7RyPlQ+Oe7pWJDkFX+JBmRzlDRQZZG5Kd+yzj8Btixg=\""
         },
         {
           "Name": "Last-Modified",
           "Value": "Thu, 06 Mar 2025 14:54:25 GMT"
+=======
+          "Value": "\"MbSkTZxRXnZHqi+rhwmjrz1Wb+1JBN/6mraiAQdtpcM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Mar 2025 18:14:19 GMT"
+>>>>>>> Stashed changes
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
+<<<<<<< Updated upstream
           "Value": "sha256-7RyPlQ+Oe7pWJDkFX+JBmRzlDRQZZG5Kd+yzj8Btixg="
         }
       ]
@@ -245,6 +336,9 @@
         {
           "Name": "label",
           "Value": "css/style.css"
+=======
+          "Value": "sha256-MbSkTZxRXnZHqi+rhwmjrz1Wb+1JBN/6mraiAQdtpcM="
+>>>>>>> Stashed changes
         }
       ]
     },
@@ -2124,13 +2218,66 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Thu, 06 Mar 2025 14:55:36 GMT"
+=======
+          "Value": "Wed, 05 Mar 2025 10:01:20 GMT"
+>>>>>>> Stashed changes
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
+<<<<<<< Updated upstream
           "Value": "sha256-sVqjDlDhIstKB3Mp4j9+ku9yUFF0fMBGepuCmOb2fuc="
+=======
+          "Value": "sha256-sahOC03NO+2nhQzlM1Qzn19XV4PogLpRRylWZvfAa8Q="
+        }
+      ]
+    },
+    {
+      "Route": "js/script.vw750wqaf5.js",
+      "AssetFile": "js/script.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "994"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sahOC03NO+2nhQzlM1Qzn19XV4PogLpRRylWZvfAa8Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Mar 2025 10:01:20 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vw750wqaf5"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sahOC03NO+2nhQzlM1Qzn19XV4PogLpRRylWZvfAa8Q="
+        },
+        {
+          "Name": "label",
+          "Value": "js/script.js"
+>>>>>>> Stashed changes
         }
       ]
     },

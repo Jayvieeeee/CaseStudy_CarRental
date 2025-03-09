@@ -15,12 +15,21 @@
     <link rel="stylesheet" href="~/css/signup.css">
 </head>
 <body>
-    <div class="left-section">
-        <img src="~/images/logo.png" alt="Company Logo">
-        <h1>DM Online Car Rental</h1>
-        <button class="learn-more">Learn More</button>
-    </div>
+    <header>
+        <div class="navbar">
+            <div class="nav-logo">
+                <span class="logo-text">DM Online Car Rental</span>
+            </div>
+            <div class="nav-menu">
+                <a asp-controller="Home" asp-action="Index" class="nav-link">Home</a>
+                <a asp-controller="Home" asp-action="About" class="nav-link">About Us</a>
+                <a asp-controller="Home" asp-action="Contact" class="nav-link">Contact</a>
+                <a asp-controller="Account" asp-action="Login" class="nav-link">Login</a>
+            </div>
+        </div>
+    </header>
 
+<<<<<<< Updated upstream
     <img src="~/images/car.png" alt="Car">
 
     <div class="right-section">
@@ -29,56 +38,66 @@
             <a href="/Home/Index#about">About Us</a>
             <a href="/Home/Index#contact">Contact</a>
             <a asp-controller="Account" asp-action="Login">Login</a>
+=======
+    <main>
+        <div class="left-section">
+            <img src="~/images/logo.png" alt="Company Logo">
+            <h1>DM Online Car Rental</h1>
+>>>>>>> Stashed changes
         </div>
 
-        <div class="signup-box">
-            <h2>Create New Account</h2>
+        <img src="~/images/car.png" alt="Car">
 
+<<<<<<< Updated upstream
             <form asp-action="Signup" method="post">
                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                 @if (ViewBag.Message != null)
                 {
                     <div class="form-group" style="color: green;">@ViewBag.Message</div>
                 }
+=======
+        <div class="right-section">
+            <div class="signup-box">
+                <h2>Create New Account</h2>
+                <form asp-action="Registration" method="post">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    @if (ViewBag.Message != null)
+                    {
+                        <div class="form-group" style="color: green;">@ViewBag.Message</div>
+                    }
+>>>>>>> Stashed changes
 
-                <input asp-for="FirstName" placeholder="First Name" required>
-                <span asp-validation-for="FirstName" class="text-danger"></span>
+                    <input asp-for="FirstName" placeholder="First Name" required>
+                    <span asp-validation-for="FirstName" class="text-danger"></span>
 
-                <input asp-for="LastName" placeholder="Last Name" required>
-                <span asp-validation-for="LastName" class="text-danger"></span>
+                    <input asp-for="LastName" placeholder="Last Name" required>
+                    <span asp-validation-for="LastName" class="text-danger"></span>
 
-                <input asp-for="Email" placeholder="Email" required>
-                <span asp-validation-for="Email" class="text-danger"></span>
+                    <input asp-for="Email" placeholder="Email" required>
+                    <span asp-validation-for="Email" class="text-danger"></span>
 
-                <input asp-for="Username" placeholder="Username" required>
-                <span asp-validation-for="Username" class="text-danger"></span>
+                    <input asp-for="Username" placeholder="Username" required>
+                    <span asp-validation-for="Username" class="text-danger"></span>
 
-                <input asp-for="Password" type="password" placeholder="Password" required>
-                <span asp-validation-for="Password" class="text-danger"></span>
+                    <input asp-for="Password" type="password" placeholder="Password" required>
+                    <span asp-validation-for="Password" class="text-danger"></span>
 
-                <input asp-for="ConfirmPassword" type="password" placeholder="Confirm Password" required>
-                <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                    <input asp-for="ConfirmPassword" type="password" placeholder="Confirm Password" required>
+                    <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
 
-                <button type="submit">Sign Up</button>
-            </form>
+                    <button type="submit">Sign Up</button>
+                </form>
 
-            <p class="login-text">
-                Already registered?
-                <a asp-controller="Account" asp-action="Login">Login</a>
-            </p>
+                <p class="login-text">
+                    Already registered?
+                    <a asp-controller="Account" asp-action="Login">Login</a>
+                </p>
+            </div>
         </div>
-    </div>
+    </main>
 
     @section Scripts {
         @await Html.PartialAsync("_ValidationScriptsPartial")
     }
 </body>
 </html>
-
-
-
-
-
-
-
-

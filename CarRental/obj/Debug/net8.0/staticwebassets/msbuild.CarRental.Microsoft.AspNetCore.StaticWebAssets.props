@@ -30,8 +30,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>dowjr1kqac</Fingerprint>
-      <Integrity>LYsWU0YhE0Ab+5bIFM8x5FeA9t6pTg5GxnHJ49Atl5k=</Integrity>
+      <Fingerprint>b549yp74w3</Fingerprint>
+      <Integrity>P1P2NDhmjtw0YzvsvkxICAv+jnipQc8hYtjg8Yx+ErA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\signup.css'))</OriginalItemSpec>
@@ -48,8 +48,13 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
+<<<<<<< Updated upstream
       <Fingerprint>hrp26ya8dt</Fingerprint>
       <Integrity>7RyPlQ+Oe7pWJDkFX+JBmRzlDRQZZG5Kd+yzj8Btixg=</Integrity>
+=======
+      <Fingerprint>92mep99ddj</Fingerprint>
+      <Integrity>MbSkTZxRXnZHqi+rhwmjrz1Wb+1JBN/6mraiAQdtpcM=</Integrity>
+>>>>>>> Stashed changes
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\style.css'))</OriginalItemSpec>

@@ -96,19 +96,20 @@ header {
     margin-right: 100px;
 }
 
-    .navbar .nav-menu .nav-link {
-        padding: 10px 18px;
-        font-size: 17px;
-        color: #fff;
-        border-radius: 20px;
-        transition: 0.3s ease;
+.navbar .nav-menu .nav-link:hover,
+.navbar .nav-menu .nav-link.active {
+        color: #000;
+        background: #fff;
     }
+<<<<<<< Updated upstream
         .navbar .nav-menu .nav-link:hover,
         .navbar .nav-menu .nav-link.active {
             color: #000;
             background: #fff;
         }
 
+=======
+>>>>>>> Stashed changes
 
 .nav-link {
     padding: 8px 16px;
@@ -116,11 +117,18 @@ header {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+<<<<<<< Updated upstream
     .nav-link.active {
         background-color: #fff;
         color: #000;
     }
 
+=======
+.nav-link.active {
+        background-color: #fff;
+        color: #000;
+}
+>>>>>>> Stashed changes
 
 .navbar :where(#menu-close-button, #menu-open-button) {
     display: none;
@@ -199,7 +207,7 @@ header {
     padding: 100px 50px;
 }
 
-    .about-section .section-content {
+.about-section .section-content {
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -245,7 +253,7 @@ header {
         font-size: 16px;
     }
 
-        .about-text li strong {
+    .about-text li strong {
             color: #D2042D;
         }
 
@@ -615,6 +623,7 @@ header {
         }
 }
 
+<<<<<<< Updated upstream
 /* View Cars Section */
 .view-cars-section {
     text-align: center;
@@ -622,6 +631,10 @@ header {
 }
 
 .carousel-wrapper {
+=======
+/*VIEW CARS*/
+.car-container1 {
+>>>>>>> Stashed changes
     display: flex;
     align-items: center;
     justify-content: center;
@@ -678,6 +691,7 @@ header {
     color: #222;
 }
 
+<<<<<<< Updated upstream
 .interested-btn {
     background: #d71a1a;
     color: white;
@@ -690,6 +704,32 @@ header {
 
     .interested-btn:hover {
         background: #b81616;
+=======
+.nav-link.active {
+        background-color: #D2042D;
+        color: white;
+        font-weight: bold;
+}
+
+.interested-btn {
+    display: block;
+    width: 100%; /* Make the button stretch across */
+    padding: 10px;
+    background-color: #D2042D; /* Red background */
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    border-radius: 15px;
+    margin-top: 10px; /* Space below the price */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    .interested-btn:hover {
+        background-color: #b10226; /* Slightly darker red on hover */
+>>>>>>> Stashed changes
     }
 
 /* Arrow Buttons */

@@ -1,6 +1,10 @@
 {
   "Version": 1,
+<<<<<<< Updated upstream
   "Hash": "5yB1i7R8TKgweNfakgHEfjjNsSUJXyDI9i1FvyvUXXs=",
+=======
+  "Hash": "+MK+bg79GXP08mu9jzsC1k1YnkIMPR6soNQrXjfM/S0=",
+>>>>>>> Stashed changes
   "Source": "CarRental",
   "BasePath": "_content/CarRental",
   "Mode": "Default",
@@ -52,8 +56,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "dowjr1kqac",
-      "Integrity": "LYsWU0YhE0Ab+5bIFM8x5FeA9t6pTg5GxnHJ49Atl5k=",
+      "Fingerprint": "b549yp74w3",
+      "Integrity": "P1P2NDhmjtw0YzvsvkxICAv+jnipQc8hYtjg8Yx+ErA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\signup.css"
@@ -73,8 +77,13 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+<<<<<<< Updated upstream
       "Fingerprint": "hrp26ya8dt",
       "Integrity": "7RyPlQ+Oe7pWJDkFX+JBmRzlDRQZZG5Kd+yzj8Btixg=",
+=======
+      "Fingerprint": "92mep99ddj",
+      "Integrity": "MbSkTZxRXnZHqi+rhwmjrz1Wb+1JBN/6mraiAQdtpcM=",
+>>>>>>> Stashed changes
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\style.css"
@@ -269,6 +278,7 @@
       "OriginalItemSpec": "wwwroot\\images\\carlist\\ertiga.jpg"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\images\\carlist\\hiace.jpg",
       "SourceId": "CarRental",
       "SourceType": "Discovered",
@@ -294,6 +304,12 @@
       "SourceId": "CarRental",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\images\\carlist\\livina.jpg",
+      "SourceId": "CarRental",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/CarRental",
       "RelativePath": "images/carlist/livina#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -395,6 +411,7 @@
       "OriginalItemSpec": "wwwroot\\images\\carlist\\spark.jpg"
     },
     {
+<<<<<<< Updated upstream
       "Identity": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\images\\carlist\\sprinter.jpg",
       "SourceId": "CarRental",
       "SourceType": "Discovered",
@@ -483,6 +500,12 @@
       "SourceId": "CarRental",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\images\\carlist\\vios.jpg",
+      "SourceId": "CarRental",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\",
+>>>>>>> Stashed changes
       "BasePath": "_content/CarRental",
       "RelativePath": "images/carlist/vios#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1844,7 +1867,11 @@
       ]
     },
     {
+<<<<<<< Updated upstream
       "Route": "css/signup.css",
+=======
+      "Route": "css/signup.b549yp74w3.css",
+>>>>>>> Stashed changes
       "AssetFile": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\css\\signup.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1854,7 +1881,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3152"
+          "Value": "1475"
         },
         {
           "Name": "Content-Type",
@@ -1862,10 +1889,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"LYsWU0YhE0Ab+5bIFM8x5FeA9t6pTg5GxnHJ49Atl5k=\""
+          "Value": "\"P1P2NDhmjtw0YzvsvkxICAv+jnipQc8hYtjg8Yx+ErA=\""
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Wed, 05 Mar 2025 18:27:29 GMT"
         },
         {
@@ -1904,6 +1932,9 @@
         {
           "Name": "Last-Modified",
           "Value": "Wed, 05 Mar 2025 18:27:29 GMT"
+=======
+          "Value": "Wed, 05 Mar 2025 17:14:13 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -1913,7 +1944,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "dowjr1kqac"
+          "Value": "b549yp74w3"
         },
         {
           "Name": "label",
@@ -1921,7 +1952,133 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-LYsWU0YhE0Ab+5bIFM8x5FeA9t6pTg5GxnHJ49Atl5k="
+          "Value": "sha256-P1P2NDhmjtw0YzvsvkxICAv+jnipQc8hYtjg8Yx+ErA="
+        }
+      ]
+    },
+    {
+<<<<<<< Updated upstream
+      "Route": "css/style.css",
+      "AssetFile": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\css\\style.css",
+=======
+      "Route": "css/signup.css",
+      "AssetFile": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\css\\signup.css",
+>>>>>>> Stashed changes
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+<<<<<<< Updated upstream
+          "Value": "15338"
+=======
+          "Value": "1475"
+>>>>>>> Stashed changes
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+<<<<<<< Updated upstream
+          "Value": "\"7RyPlQ+Oe7pWJDkFX+JBmRzlDRQZZG5Kd+yzj8Btixg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Mar 2025 14:54:25 GMT"
+=======
+          "Value": "\"P1P2NDhmjtw0YzvsvkxICAv+jnipQc8hYtjg8Yx+ErA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Mar 2025 17:14:13 GMT"
+>>>>>>> Stashed changes
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+<<<<<<< Updated upstream
+          "Value": "sha256-7RyPlQ+Oe7pWJDkFX+JBmRzlDRQZZG5Kd+yzj8Btixg="
+=======
+          "Value": "sha256-P1P2NDhmjtw0YzvsvkxICAv+jnipQc8hYtjg8Yx+ErA="
+>>>>>>> Stashed changes
+        }
+      ]
+    },
+    {
+<<<<<<< Updated upstream
+      "Route": "css/style.hrp26ya8dt.css",
+=======
+      "Route": "css/style.92mep99ddj.css",
+>>>>>>> Stashed changes
+      "AssetFile": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+<<<<<<< Updated upstream
+          "Value": "15338"
+=======
+          "Value": "16100"
+>>>>>>> Stashed changes
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+<<<<<<< Updated upstream
+          "Value": "\"7RyPlQ+Oe7pWJDkFX+JBmRzlDRQZZG5Kd+yzj8Btixg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Mar 2025 14:54:25 GMT"
+=======
+          "Value": "\"MbSkTZxRXnZHqi+rhwmjrz1Wb+1JBN/6mraiAQdtpcM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Mar 2025 18:14:19 GMT"
+>>>>>>> Stashed changes
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+<<<<<<< Updated upstream
+          "Value": "hrp26ya8dt"
+=======
+          "Value": "92mep99ddj"
+>>>>>>> Stashed changes
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css"
+        },
+        {
+          "Name": "integrity",
+<<<<<<< Updated upstream
+          "Value": "sha256-7RyPlQ+Oe7pWJDkFX+JBmRzlDRQZZG5Kd+yzj8Btixg="
+=======
+          "Value": "sha256-MbSkTZxRXnZHqi+rhwmjrz1Wb+1JBN/6mraiAQdtpcM="
         }
       ]
     },
@@ -1936,7 +2093,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "15338"
+          "Value": "16100"
         },
         {
           "Name": "Content-Type",
@@ -1944,11 +2101,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"7RyPlQ+Oe7pWJDkFX+JBmRzlDRQZZG5Kd+yzj8Btixg=\""
+          "Value": "\"MbSkTZxRXnZHqi+rhwmjrz1Wb+1JBN/6mraiAQdtpcM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Mar 2025 14:54:25 GMT"
+          "Value": "Wed, 05 Mar 2025 18:14:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1958,52 +2115,8 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-7RyPlQ+Oe7pWJDkFX+JBmRzlDRQZZG5Kd+yzj8Btixg="
-        }
-      ]
-    },
-    {
-      "Route": "css/style.hrp26ya8dt.css",
-      "AssetFile": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\css\\style.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "15338"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"7RyPlQ+Oe7pWJDkFX+JBmRzlDRQZZG5Kd+yzj8Btixg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 06 Mar 2025 14:54:25 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "hrp26ya8dt"
-        },
-        {
-          "Name": "label",
-          "Value": "css/style.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-7RyPlQ+Oe7pWJDkFX+JBmRzlDRQZZG5Kd+yzj8Btixg="
+          "Value": "sha256-MbSkTZxRXnZHqi+rhwmjrz1Wb+1JBN/6mraiAQdtpcM="
+>>>>>>> Stashed changes
         }
       ]
     },
@@ -3812,7 +3925,11 @@
       ]
     },
     {
+<<<<<<< Updated upstream
       "Route": "js/script.14icobl8wc.js",
+=======
+      "Route": "js/script.js",
+>>>>>>> Stashed changes
       "AssetFile": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\js\\script.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3834,7 +3951,48 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
           "Value": "Thu, 06 Mar 2025 14:55:36 GMT"
+=======
+          "Value": "Wed, 05 Mar 2025 10:01:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sahOC03NO+2nhQzlM1Qzn19XV4PogLpRRylWZvfAa8Q="
+        }
+      ]
+    },
+    {
+      "Route": "js/script.vw750wqaf5.js",
+      "AssetFile": "C:\\Users\\Jayvie\\Desktop\\CaseStudy_CarRental\\CarRental\\wwwroot\\js\\script.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "994"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sahOC03NO+2nhQzlM1Qzn19XV4PogLpRRylWZvfAa8Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Mar 2025 10:01:20 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
