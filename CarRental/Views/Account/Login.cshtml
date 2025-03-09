@@ -21,13 +21,13 @@
         <button class="learn-more">Learn More</button>
     </div>
 
-    <img src="~/images/car-removebg-preview.png" alt="Car">
+    <img src="~/images/car.png" alt="Car">
 
     <div class="right-section">
         <div class="nav-bar">
             <a asp-controller="Home" asp-action="Index">Home</a>
-            <a asp-controller="Home" asp-action="About">About Us</a>
-            <a asp-controller="Home" asp-action="Contact">Contact</a>
+            <a href="/Home/Index#about">About Us</a>
+            <a href="/Home/Index#contact">Contact</a>
             <a asp-controller="Account" asp-action="Login">Login</a>
         </div>
 
@@ -39,10 +39,17 @@
                     <input asp-for="UsernameOrEmail" type="text" placeholder="Username or Email" required>
                     <span asp-validation-for="UsernameOrEmail" class="text-danger"></span>
                 </div>
+
                 <div class="input-container">
                     <input asp-for="Password" type="password" placeholder="Password" required>
                     <span asp-validation-for="Password" class="text-danger"></span>
                 </div>
+
+                <!-- Forgot Password Link Under Password Field -->
+                <p class="forgot-password">
+                    🔒 <a asp-controller="Account" asp-action="ForgotPassword">Forgot password?</a>
+                </p>
+
                 <button type="submit">Login</button>
             </form>
 
@@ -63,7 +70,3 @@
     }
 </body>
 </html>
-
-
-
-

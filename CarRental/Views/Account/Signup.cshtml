@@ -2,7 +2,7 @@
 
 @{
     Layout = null;
-    ViewData["Title"] = "Registration";
+    ViewData["Title"] = "Signup";
 }
 
 <!DOCTYPE html>
@@ -21,20 +21,20 @@
         <button class="learn-more">Learn More</button>
     </div>
 
-    <img src="~/images/car-removebg-preview.png" alt="Car">
+    <img src="~/images/car.png" alt="Car">
 
     <div class="right-section">
         <div class="nav-bar">
             <a asp-controller="Home" asp-action="Index">Home</a>
-            <a asp-controller="Home" asp-action="About">About Us</a>
-            <a asp-controller="Home" asp-action="Contact">Contact</a>
+            <a href="/Home/Index#about">About Us</a>
+            <a href="/Home/Index#contact">Contact</a>
             <a asp-controller="Account" asp-action="Login">Login</a>
         </div>
 
         <div class="signup-box">
             <h2>Create New Account</h2>
 
-            <form asp-action="Registration" method="post">
+            <form asp-action="Signup" method="post">
                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                 @if (ViewBag.Message != null)
                 {
