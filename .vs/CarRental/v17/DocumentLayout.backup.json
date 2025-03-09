@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\CaseStudy_CarRental\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|c:\\users\\chrisha dalmacio\\onedrive\\desktop\\casestudy_carrental\\carrental\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|solutionrelative:carrental\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|c:\\users\\chrisha dalmacio\\onedrive\\desktop\\casestudy_carrental\\carrental\\views\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|solutionrelative:carrental\\views\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|c:\\users\\chrisha dalmacio\\onedrive\\desktop\\casestudy_carrental\\carrental\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|solutionrelative:carrental\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{311F3B8A-98E5-4686-A277-488101A490DC}|CarRental\\CarRental.csproj|c:\\users\\chrisha dalmacio\\onedrive\\desktop\\casestudy_carrental\\carrental\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -110,7 +110,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -118,11 +118,7 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             },
             {
               "$type": "Bookmark",
@@ -130,17 +126,21 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ForgotPassword.cshtml",
               "DocumentMoniker": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\CaseStudy_CarRental\\CarRental\\Views\\Account\\ForgotPassword.cshtml",
               "RelativeDocumentMoniker": "CarRental\\Views\\Account\\ForgotPassword.cshtml",
               "ToolTip": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\CaseStudy_CarRental\\CarRental\\Views\\Account\\ForgotPassword.cshtml",
               "RelativeToolTip": "CarRental\\Views\\Account\\ForgotPassword.cshtml",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-09T08:25:17.468Z",
               "EditorCaption": ""
@@ -155,8 +155,7 @@
               "RelativeToolTip": "CarRental\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-07T09:07:18.022Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-07T09:07:18.022Z"
             },
             {
               "$type": "Document",
@@ -168,8 +167,7 @@
               "RelativeToolTip": "CarRental\\Services\\EmailService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T16:51:01.347Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-08T16:51:01.347Z"
             },
             {
               "$type": "Document",
@@ -181,8 +179,7 @@
               "RelativeToolTip": "CarRental\\Controllers\\AccountController.cs",
               "ViewState": "AgIAALgAAAAAAAAAAAAqwKoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T16:46:44.687Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-08T16:46:44.687Z"
             },
             {
               "$type": "Document",
@@ -194,8 +191,19 @@
               "RelativeToolTip": "CarRental\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAByAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T16:20:54.216Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-08T16:20:54.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\CaseStudy_CarRental\\CarRental\\Views\\Account\\Index.cshtml",
+              "RelativeDocumentMoniker": "CarRental\\Views\\Account\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\CaseStudy_CarRental\\CarRental\\Views\\Account\\Index.cshtml",
+              "RelativeToolTip": "CarRental\\Views\\Account\\Index.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-07T09:09:49.704Z"
             },
             {
               "$type": "Document",
@@ -207,8 +215,7 @@
               "RelativeToolTip": "CarRental\\Models\\LoginViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T17:33:21.517Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-08T17:33:21.517Z"
             },
             {
               "$type": "Document",
@@ -220,21 +227,7 @@
               "RelativeToolTip": "CarRental\\Views\\Account\\SecurePage.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-09T07:13:46.482Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\CaseStudy_CarRental\\CarRental\\Views\\Account\\Index.cshtml",
-              "RelativeDocumentMoniker": "CarRental\\Views\\Account\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Chrisha Dalmacio\\OneDrive\\Desktop\\CaseStudy_CarRental\\CarRental\\Views\\Account\\Index.cshtml",
-              "RelativeToolTip": "CarRental\\Views\\Account\\Index.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-07T09:09:49.704Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-09T07:13:46.482Z"
             },
             {
               "$type": "Document",
@@ -246,8 +239,7 @@
               "RelativeToolTip": "CarRental\\Views\\Account\\Signup.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-09T08:25:16.093Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-09T08:25:16.093Z"
             },
             {
               "$type": "Document",
@@ -259,8 +251,7 @@
               "RelativeToolTip": "CarRental\\Views\\Account\\Login.cshtml",
               "ViewState": "AgIAABcAAAAAAAAAAAAqwDMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-08T17:20:57.99Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-08T17:20:57.99Z"
             },
             {
               "$type": "Document",

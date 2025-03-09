@@ -1,10 +1,14 @@
 {
   "Version": 1,
+<<<<<<< Updated upstream
 <<<<<<< HEAD
   "Hash": "thMVVzfobDF0yaiAB77YyoK0aVNjxM6XDgs9xudzqPY=",
 =======
   "Hash": "RrUP+W1HkHpZKX6rhSxc5HCnhUhBve4Vmh0rHMeiGMk=",
 >>>>>>> sandbox
+=======
+  "Hash": "IleKmyyPJzrPU/vMCHQTVnKZp1boRxkWq13znqlxNE0=",
+>>>>>>> Stashed changes
   "Source": "CarRental",
   "BasePath": "_content/CarRental",
   "Mode": "Default",
@@ -1809,7 +1813,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 05:25:08 GMT"
+          "Value": "Sun, 09 Mar 2025 08:08:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1854,7 +1858,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 05:25:08 GMT"
+          "Value": "Sun, 09 Mar 2025 08:08:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2103,11 +2107,15 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
 <<<<<<< HEAD
           "Value": "Thu, 06 Mar 2025 15:01:30 GMT"
 =======
           "Value": "Sun, 09 Mar 2025 05:25:08 GMT"
 >>>>>>> sandbox
+=======
+          "Value": "Sun, 09 Mar 2025 08:08:31 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
@@ -2144,7 +2152,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 05:25:08 GMT"
+          "Value": "Sun, 09 Mar 2025 08:08:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4033,7 +4041,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 05:25:08 GMT"
+          "Value": "Sun, 09 Mar 2025 08:08:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4078,11 +4086,15 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< Updated upstream
 <<<<<<< HEAD
           "Value": "Thu, 06 Mar 2025 15:01:30 GMT"
 =======
           "Value": "Sun, 09 Mar 2025 05:25:08 GMT"
 >>>>>>> sandbox
+=======
+          "Value": "Sun, 09 Mar 2025 08:08:31 GMT"
+>>>>>>> Stashed changes
         },
         {
           "Name": "Cache-Control",
