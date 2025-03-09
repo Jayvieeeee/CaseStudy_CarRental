@@ -1,32 +1,40 @@
-﻿using System.Net.Mail;
-using Microsoft.Extensions.Configuration;
-using System.Threading.Tasks;
+﻿using System.Net;
+using System.Net.Mail;
+using Microsoft.Extensions.Options;
 
-public class EmailService
+namespace CarRental.Services
 {
-    private readonly IConfiguration _config;
-
-    public EmailService(IConfiguration config)
+    public class EmailService
     {
-        _config = config;
-    }
+        private readonly EmailSettings _emailSettings;
 
-    public async Task SendEmailAsync(string name, string email, string phone, string message)
-    {
-        var mailMessage = new MailMessage
+        public EmailService(IOptions<EmailSettings> emailSettings)
         {
-            From = new MailAddress(_config["EmailSettings:SenderEmail"]),
-            Subject = "New Contact Form Submission",
-            Body = $"Name: {name}\nEmail: {email}\nPhone: {phone}\nMessage:\n{message}",
-            IsBodyHtml = false
-        };
+            _emailSettings = emailSettings.Value;
+        }
 
-        mailMessage.To.Add(_config["EmailSettings:ReceiverEmail"]);
-
-        using (var smtpClient = new SmtpClient(_config["EmailSettings:SMTPServer"], int.Parse(_config["EmailSettings:SMTPPort"])))
+        public void SendVerificationEmail(string recipientEmail, string code)
         {
-            smtpClient.EnableSsl = false; // No authentication
-            await smtpClient.SendMailAsync(mailMessage);
+            var smtpClient = new SmtpClient(_emailSettings.SmtpServer)
+            {
+                Port = _emailSettings.Port,
+                Credentials = new NetworkCredential(_emailSettings.SenderEmail, _emailSettings.SenderPassword),
+                EnableSsl = true,
+                UseDefaultCredentials = false
+
+            };
+
+
+            var mailMessage = new MailMessage
+            {
+                From = new MailAddress(_emailSettings.SenderEmail),
+                Subject = "Password Reset Code",
+                Body = $"Your verification code is: {code}",
+                IsBodyHtml = false,
+            };
+
+            mailMessage.To.Add(recipientEmail);
+            smtpClient.Send(mailMessage);
         }
     }
 }

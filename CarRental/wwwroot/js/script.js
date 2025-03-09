@@ -29,4 +29,26 @@ window.addEventListener('scroll', () => {
     });
 
 });
+document.addEventListener("DOMContentLoaded", function () {
+    // Initialize Swiper
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3, // Show 3 images at a time
+        spaceBetween: 5, // Reduced space between images
+        loop: true, // Infinite looping
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        speed: 500, // Smooth transition speed
+        slidesPerGroup: 1, // Move one image at a time
+    });
 
+    // Adjust heights of car elements
+    let maxHeight = 0;
+    document.querySelectorAll('.car').forEach(car => {
+        maxHeight = Math.max(maxHeight, car.clientHeight);
+    });
+    document.querySelectorAll('.car').forEach(car => {
+        car.style.height = maxHeight + "px";
+    });
+});

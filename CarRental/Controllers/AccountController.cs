@@ -7,17 +7,21 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using CarRental.Services;
 
 namespace CarRental.Controllers
 {
     public class AccountController : Controller
     {
         private readonly AppDbContext _context;
-
-        public AccountController(AppDbContext accesDb)
+        private readonly EmailService _emailService;
+        
+        public AccountController(AppDbContext accesDb, EmailService emailService)
         {
 
             _context = accesDb;
+            _emailService = emailService;
+
         }
         public IActionResult Index()
         {
@@ -107,5 +111,96 @@ namespace CarRental.Controllers
             ViewBag.Name = HttpContext.User.Identity.Name;
             return View();
         }
+
+        public IActionResult ForgotPassword()
+        {
+            return View();
+        }
+
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult ForgotPassword(ForgotPasswordViewModel model)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View(model);
+            }
+
+            var user = _context.UserAccounts.FirstOrDefault(u => u.Email == model.Email);
+            if (user == null)
+            {
+                ViewBag.ErrorMessage = "User not found.";
+                return View();
+            }
+
+            // Generate verification code
+            Random random = new Random();
+            string verificationCode = random.Next(100000, 999999).ToString();
+
+            // Store in TempData instead of database
+            TempData["VerificationCode"] = verificationCode;
+            TempData["Email"] = model.Email;
+
+            // Send email
+            _emailService.SendVerificationEmail(model.Email, verificationCode);
+
+            return RedirectToAction("VerifyCode");
+        }
+
+        public IActionResult VerifyCode()
+        {
+            return View();
+        }
+
+
+        [HttpPost]
+        public IActionResult VerifyCode(string email, string code)
+        {
+            if (TempData["VerificationCode"] != null && TempData["VerificationCode"].ToString() == code)
+            {
+                TempData["Email"] = email; // Save email for next step
+                return RedirectToAction("ResetPassword");
+            }
+
+            ViewBag.ErrorMessage = "Invalid code.";
+            return View();
+        }
+
+        public IActionResult ResetPassword()
+        {
+            return View();
+        }
+
+
+        [HttpPost]
+        public IActionResult ResetPassword(ResetPasswordViewModel model)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View(model);
+            }
+
+            var user = _context.UserAccounts.FirstOrDefault(u => u.Email == model.Email);
+            if (user != null)
+            {
+                if (model.NewPassword != model.ConfirmPassword)
+                {
+                    ViewBag.ErrorMessage = "Passwords do not match.";
+                    return View(model);
+                }
+
+                user.Password = model.NewPassword;
+                _context.SaveChanges();
+
+                TempData.Clear(); // Clear TempData after successful reset
+
+                return RedirectToAction("Login"); // Redirect to Login Page
+            }
+
+            ViewBag.ErrorMessage = "Error resetting password.";
+            return View();
+        }
+
     }
 }
