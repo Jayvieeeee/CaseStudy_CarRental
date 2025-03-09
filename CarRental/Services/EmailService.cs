@@ -20,7 +20,10 @@ namespace CarRental.Services
                 Port = _emailSettings.Port,
                 Credentials = new NetworkCredential(_emailSettings.SenderEmail, _emailSettings.SenderPassword),
                 EnableSsl = true,
+                UseDefaultCredentials = false
+
             };
+
 
             var mailMessage = new MailMessage
             {

@@ -112,8 +112,14 @@ namespace CarRental.Controllers
             return View();
         }
 
+        public IActionResult ForgotPassword()
+        {
+            return View();
+        }
+
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public IActionResult ForgotPassword(ForgotPasswordViewModel model)
         {
             if (!ModelState.IsValid)
@@ -131,13 +137,14 @@ namespace CarRental.Controllers
             // Generate verification code
             Random random = new Random();
             string verificationCode = random.Next(100000, 999999).ToString();
-            user.VerificationCode = verificationCode;
-            _context.SaveChanges();
+
+            // Store in TempData instead of database
+            TempData["VerificationCode"] = verificationCode;
+            TempData["Email"] = model.Email;
 
             // Send email
             _emailService.SendVerificationEmail(model.Email, verificationCode);
 
-            TempData["Email"] = model.Email;
             return RedirectToAction("VerifyCode");
         }
 
@@ -146,13 +153,13 @@ namespace CarRental.Controllers
             return View();
         }
 
+
         [HttpPost]
         public IActionResult VerifyCode(string email, string code)
         {
-            var user = _context.UserAccounts.FirstOrDefault(u => u.Email == email);
-            if (user != null && user.VerificationCode == code)
+            if (TempData["VerificationCode"] != null && TempData["VerificationCode"].ToString() == code)
             {
-                TempData["Email"] = email;
+                TempData["Email"] = email; // Save email for next step
                 return RedirectToAction("ResetPassword");
             }
 
@@ -165,6 +172,7 @@ namespace CarRental.Controllers
             return View();
         }
 
+
         [HttpPost]
         public IActionResult ResetPassword(ResetPasswordViewModel model)
         {
@@ -176,13 +184,23 @@ namespace CarRental.Controllers
             var user = _context.UserAccounts.FirstOrDefault(u => u.Email == model.Email);
             if (user != null)
             {
-                user.Password = model.NewPassword; 
+                if (model.NewPassword != model.ConfirmPassword)
+                {
+                    ViewBag.ErrorMessage = "Passwords do not match.";
+                    return View(model);
+                }
+
+                user.Password = model.NewPassword;
                 _context.SaveChanges();
-                return RedirectToAction("Login");
+
+                TempData.Clear(); // Clear TempData after successful reset
+
+                return RedirectToAction("Login"); // Redirect to Login Page
             }
 
             ViewBag.ErrorMessage = "Error resetting password.";
             return View();
         }
+
     }
 }
