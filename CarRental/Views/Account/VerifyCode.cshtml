@@ -1,0 +1,9 @@
+﻿<form asp-action="VerifyCode" method="post">
+    <input type="hidden" name="email" value="@TempData["Email"]" />
+    <input type="text" name="code" placeholder="Enter verification code" required />
+    <button type="submit">Verify</button>
+</form>
+@if (ViewBag.ErrorMessage != null)
+{
+    <p class="text-danger">@ViewBag.ErrorMessage</p>
+}

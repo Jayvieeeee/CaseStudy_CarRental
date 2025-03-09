@@ -39,10 +39,17 @@
                     <input asp-for="UsernameOrEmail" type="text" placeholder="Username or Email" required>
                     <span asp-validation-for="UsernameOrEmail" class="text-danger"></span>
                 </div>
+
                 <div class="input-container">
                     <input asp-for="Password" type="password" placeholder="Password" required>
                     <span asp-validation-for="Password" class="text-danger"></span>
                 </div>
+
+                <!-- Forgot Password Link Under Password Field -->
+                <p class="forgot-password">
+                    🔒 <a asp-controller="Account" asp-action="ForgotPassword">Forgot password?</a>
+                </p>
+
                 <button type="submit">Login</button>
             </form>
 
@@ -63,7 +70,3 @@
     }
 </body>
 </html>
-
-
-
-
