@@ -1,7 +1,9 @@
 wwwroot\css\forgotpass.css
 wwwroot\css\login.css
+wwwroot\css\resetPassword.css
 wwwroot\css\signup.css
 wwwroot\css\style.css
+wwwroot\css\verifyCode.css
 wwwroot\favicon.ico
 wwwroot\images\car.png
 wwwroot\images\carlist\accent.jpg
@@ -24,6 +26,8 @@ wwwroot\images\carlist\urvan.jpg
 wwwroot\images\carlist\vios.jpg
 wwwroot\images\carlist\xpander.jpg
 wwwroot\images\carlist\xv.jpg
+wwwroot\images\dmlogo.png
+wwwroot\images\line.png
 wwwroot\js\script.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

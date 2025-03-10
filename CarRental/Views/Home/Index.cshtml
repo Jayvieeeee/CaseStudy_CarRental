@@ -9,20 +9,19 @@
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>Car Rental</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+              <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
             <link rel="stylesheet" href="~/css/style.css">
         </head>
         <body>
             <!--HEADER / NAVBAR-->
             <header>
                 <nav class="navbar section-content">
-                    <a href="#" class="nav-logo">
-                        <h2 class="logo-text">Car Rental</h2>
+                    <a href="#home" class="nav-logo">
+                <img src="~/images/dmlogo.png" alt="DM Car Rental Logo" class="logo-text">         
                     </a>
+            <button id="menu-close-button" class="fas fa-times"></button>
                     <ul class="nav-menu">
-                        <button id="menu-close-button" class="fas fa-times"></button>
-
 
                         <li class="nav-item">
                             <a href="#home" class="nav-link">Home</a>
@@ -39,11 +38,14 @@
                         <li class="nav-item">
                         <a asp-controller="Account" asp-action="Login"class="nav-link">Login</a>
                         </li>
-                    </ul>
-
-                    <button id="menu-open-button" class="fas fa-bars"></button>
+                        <div class="line">
+                            <img src="~/images/line.png" alt="Line Image">
+                        </div>
+                    </ul>      
+       
+            <button id="menu-open-button" class="fas fa-bars"></button>
                 </nav>
-            </header>
+            </header>   
 
             <main>
 
@@ -104,42 +106,37 @@
             <div class="section-content">
                 <h2 class="section-title">VIEW CARS</h2>
 
-                <!-- Swiper container -->
-                <div class="swiper mySwiper">
-                    <div class="swiper-wrapper">
-                        @if (Model != null && Model.Any())
-                        {
-                            @foreach (var car in Model)
+                <div class="view-cars-section">
+                    <!-- Swiper container -->
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            @if (Model != null && Model.Any())
                             {
-                                <div class="swiper-slide">
-                                    <div class="car">
-                                        <img src="~/images/carlist/@car.ImageUrl" alt="@car.Model">
-                                        <h3>@car.Brand</h3>
-
-                                        <div class="price-button-container">
+                                @foreach (var car in Model)
+                                {
+                                    <div class="swiper-slide">
+                                        <div class="car">
+                                            <img src="~/images/carlist/@car.ImageUrl" alt="@car.Model">
+                                            <h3>@car.Brand</h3>
+                                            <p>Model: @car.Model</p>
+                                            <p>Seater: 5 Seater</p>
                                             <p class="price">&#8369;@car.RentalPrice Per Day</p>
                                             <button class="interested-btn">Interested</button>
                                         </div>
-
-                                        <p>Model: @car.Model</p>
-                                        <p>Seater: 5 Seater</p>
                                     </div>
-                                </div>
+                                }
                             }
-                        }
-                        else
-                        {
-                            <p>No cars available.</p>
-                        }
+                            else
+                            {
+                                <p>No cars available.</p>
+                            }
+                        </div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
                     </div>
-
-                    <!-- Navigation buttons -->
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-button-next"></div>
                 </div>
             </div>
         </section>
-
 
 
         <!--CONTACT US-->
@@ -178,9 +175,11 @@
         </section>
 
             </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="~/js/script.js"></script>
+
         </body>
-<script src="~/js/script.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
         </html>
 
 

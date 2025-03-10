@@ -1,9 +1,74 @@
-﻿<form asp-action="VerifyCode" method="post">
-    <input type="hidden" name="email" value="@TempData["Email"]" />
-    <input type="text" name="code" placeholder="Enter verification code" required />
-    <button type="submit">Verify</button>
-</form>
-@if (ViewBag.ErrorMessage != null)
-{
-    <p class="text-danger">@ViewBag.ErrorMessage</p>
+﻿@{
+    Layout = null;
+    ViewData["Title"] = "Verify Code";
 }
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Rental</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/verifycode.css" />
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <a href="#" class="nav-logo">
+                <img src="~/images/dmlogo.png" alt="DM Car Rental Logo">
+            </a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a asp-controller="Home" asp-action="Index" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="/Home/Index#about" class="nav-link">About Us</a></li>
+                <li class="nav-item"><a asp-controller="Cars" asp-action="ViewCars" class="nav-link">View Cars</a></li>
+                <li class="nav-item"><a href="/Home/Index#contact" class="nav-link">Contact</a></li>
+                <li class="nav-item"><a asp-controller="Account" asp-action="Login" class="nav-link">Login</a></li>
+
+                <div class="line">
+                    <img src="~/images/line.png" alt="Line Image">
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <div class="left-section">
+            <h2>DM Online Car Rental</h2>
+            <button>Learn More</button>
+            <img src="~/images/car.png" alt="Red Car">
+        </div>
+
+        <div class="right-section">
+            <div class="login-box">
+                <h2>VERIFY CODE</h2>
+                <p class="verify-code-info">
+                    Please enter the verification code sent to your email.
+                </p>
+                <form asp-action="VerifyCode" method="post">
+                    <input type="hidden" name="email" value="@TempData["Email"]" />
+                    <div class="form-group">
+                        <label for="code">VERIFICATION CODE</label>
+                        <input type="text" name="code" placeholder="Enter verification code" required>
+                    </div>
+                    <button type="submit">VERIFY</button>
+                </form>
+
+                @if (ViewBag.ErrorMessage != null)
+                {
+                    <p class="text-danger">@ViewBag.ErrorMessage</p>
+                }
+                @if (ViewBag.SuccessMessage != null)
+                {
+                    <p class="text-success">@ViewBag.SuccessMessage</p>
+                }
+            </div>
+        </div>
+    </main>
+
+    @section Scripts {
+        @await Html.PartialAsync("_ValidationScriptsPartial")
+    }
+</body>
+</html>
