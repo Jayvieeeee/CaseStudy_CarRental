@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CarRental.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250309044555_verificationcode")]
-    partial class verificationcode
+    [Migration("20250310184139_addedHashedPassAdmin")]
+    partial class addedHashedPassAdmin
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -441,17 +441,16 @@ namespace CarRental.Migrations
 
                     b.Property<string>("Password")
                         .IsRequired()
-                        .HasMaxLength(20)
-                        .HasColumnType("nvarchar(20)");
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
+
+                    b.Property<string>("Role")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Username")
                         .IsRequired()
-                        .HasMaxLength(20)
-                        .HasColumnType("nvarchar(20)");
-
-                    b.Property<string>("VerificationCode")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.HasKey("Id");
 
@@ -462,6 +461,18 @@ namespace CarRental.Migrations
                         .IsUnique();
 
                     b.ToTable("UserAccounts");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Email = "dmcarss23@email.com",
+                            FirstName = "Dm",
+                            LastName = "Cars",
+                            Password = "f340878ce392d887ad22e736f48a0ee0af77a34b0b7d76070e3633376c13406d",
+                            Role = "Admin",
+                            Username = "dmcars"
+                        });
                 });
 
             modelBuilder.Entity("CarRental.Models.RentalRequest", b =>

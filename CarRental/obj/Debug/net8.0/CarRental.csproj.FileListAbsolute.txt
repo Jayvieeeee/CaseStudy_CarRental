@@ -863,15 +863,6 @@ C:\Users\Jayvie\Desktop\CaseStudy_CarRental\CarRental\obj\Debug\net8.0\CarRental
 C:\Users\Jayvie\Desktop\CaseStudy_CarRental\CarRental\obj\Debug\net8.0\CarRental.genruntimeconfig.cache
 C:\Users\Jayvie\Desktop\CaseStudy_CarRental\CarRental\obj\Debug\net8.0\ref\CarRental.dll
 C:\Users\Jayvie\Desktop\CaseStudy_CarRental\CarRental\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
-C:\Users\Chrisha Dalmacio\OneDrive\Desktop\CaseStudy_CarRental\CarRental\obj\Debug\net8.0\CarRental.csproj.AssemblyReference.cache
-C:\Users\Chrisha Dalmacio\OneDrive\Desktop\CaseStudy_CarRental\CarRental\obj\Debug\net8.0\CarRental.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Chrisha Dalmacio\OneDrive\Desktop\CaseStudy_CarRental\CarRental\obj\Debug\net8.0\CarRental.AssemblyInfoInputs.cache
-C:\Users\Chrisha Dalmacio\OneDrive\Desktop\CaseStudy_CarRental\CarRental\obj\Debug\net8.0\CarRental.AssemblyInfo.cs
-C:\Users\Chrisha Dalmacio\OneDrive\Desktop\CaseStudy_CarRental\CarRental\obj\Debug\net8.0\CarRental.csproj.CoreCompileInputs.cache
-C:\Users\Chrisha Dalmacio\OneDrive\Desktop\CaseStudy_CarRental\CarRental\obj\Debug\net8.0\CarRental.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Chrisha Dalmacio\OneDrive\Desktop\CaseStudy_CarRental\CarRental\obj\Debug\net8.0\CarRental.RazorAssemblyInfo.cache
-C:\Users\Chrisha Dalmacio\OneDrive\Desktop\CaseStudy_CarRental\CarRental\obj\Debug\net8.0\CarRental.RazorAssemblyInfo.cs
-C:\Users\Chrisha Dalmacio\OneDrive\Desktop\CaseStudy_CarRental\CarRental\obj\Debug\net8.0\CarRental.sourcelink.json
 C:\Users\Chrisha Dalmacio\OneDrive\Desktop\CaseStudy_CarRental\CarRental\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\Chrisha Dalmacio\OneDrive\Desktop\CaseStudy_CarRental\CarRental\bin\Debug\net8.0\appsettings.json
 C:\Users\Chrisha Dalmacio\OneDrive\Desktop\CaseStudy_CarRental\CarRental\bin\Debug\net8.0\CarRental.staticwebassets.runtime.json
@@ -883,6 +874,7 @@ C:\Users\Chrisha Dalmacio\OneDrive\Desktop\CaseStudy_CarRental\CarRental\bin\Deb
 C:\Users\Chrisha Dalmacio\OneDrive\Desktop\CaseStudy_CarRental\CarRental\bin\Debug\net8.0\CarRental.pdb
 C:\Users\Chrisha Dalmacio\OneDrive\Desktop\CaseStudy_CarRental\CarRental\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\Chrisha Dalmacio\OneDrive\Desktop\CaseStudy_CarRental\CarRental\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\Chrisha Dalmacio\OneDrive\Desktop\CaseStudy_CarRental\CarRental\bin\Debug\net8.0\BCrypt.Net-Next.dll
 C:\Users\Chrisha Dalmacio\OneDrive\Desktop\CaseStudy_CarRental\CarRental\bin\Debug\net8.0\Humanizer.dll
 C:\Users\Chrisha Dalmacio\OneDrive\Desktop\CaseStudy_CarRental\CarRental\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\Chrisha Dalmacio\OneDrive\Desktop\CaseStudy_CarRental\CarRental\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
@@ -1133,6 +1125,15 @@ C:\Users\Chrisha Dalmacio\OneDrive\Desktop\CaseStudy_CarRental\CarRental\bin\Deb
 C:\Users\Chrisha Dalmacio\OneDrive\Desktop\CaseStudy_CarRental\CarRental\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Chrisha Dalmacio\OneDrive\Desktop\CaseStudy_CarRental\CarRental\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 C:\Users\Chrisha Dalmacio\OneDrive\Desktop\CaseStudy_CarRental\CarRental\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+C:\Users\Chrisha Dalmacio\OneDrive\Desktop\CaseStudy_CarRental\CarRental\obj\Debug\net8.0\CarRental.csproj.AssemblyReference.cache
+C:\Users\Chrisha Dalmacio\OneDrive\Desktop\CaseStudy_CarRental\CarRental\obj\Debug\net8.0\CarRental.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Chrisha Dalmacio\OneDrive\Desktop\CaseStudy_CarRental\CarRental\obj\Debug\net8.0\CarRental.AssemblyInfoInputs.cache
+C:\Users\Chrisha Dalmacio\OneDrive\Desktop\CaseStudy_CarRental\CarRental\obj\Debug\net8.0\CarRental.AssemblyInfo.cs
+C:\Users\Chrisha Dalmacio\OneDrive\Desktop\CaseStudy_CarRental\CarRental\obj\Debug\net8.0\CarRental.csproj.CoreCompileInputs.cache
+C:\Users\Chrisha Dalmacio\OneDrive\Desktop\CaseStudy_CarRental\CarRental\obj\Debug\net8.0\CarRental.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Chrisha Dalmacio\OneDrive\Desktop\CaseStudy_CarRental\CarRental\obj\Debug\net8.0\CarRental.RazorAssemblyInfo.cache
+C:\Users\Chrisha Dalmacio\OneDrive\Desktop\CaseStudy_CarRental\CarRental\obj\Debug\net8.0\CarRental.RazorAssemblyInfo.cs
+C:\Users\Chrisha Dalmacio\OneDrive\Desktop\CaseStudy_CarRental\CarRental\obj\Debug\net8.0\CarRental.sourcelink.json
 C:\Users\Chrisha Dalmacio\OneDrive\Desktop\CaseStudy_CarRental\CarRental\obj\Debug\net8.0\scopedcss\bundle\CarRental.styles.css
 C:\Users\Chrisha Dalmacio\OneDrive\Desktop\CaseStudy_CarRental\CarRental\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\Chrisha Dalmacio\OneDrive\Desktop\CaseStudy_CarRental\CarRental\obj\Debug\net8.0\staticwebassets.development.json
@@ -1143,10 +1144,10 @@ C:\Users\Chrisha Dalmacio\OneDrive\Desktop\CaseStudy_CarRental\CarRental\obj\Deb
 C:\Users\Chrisha Dalmacio\OneDrive\Desktop\CaseStudy_CarRental\CarRental\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.CarRental.props
 C:\Users\Chrisha Dalmacio\OneDrive\Desktop\CaseStudy_CarRental\CarRental\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.CarRental.props
 C:\Users\Chrisha Dalmacio\OneDrive\Desktop\CaseStudy_CarRental\CarRental\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\Chrisha Dalmacio\OneDrive\Desktop\CaseStudy_CarRental\CarRental\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\Chrisha Dalmacio\OneDrive\Desktop\CaseStudy_CarRental\CarRental\obj\Debug\net8.0\CarRental.csproj.Up2Date
 C:\Users\Chrisha Dalmacio\OneDrive\Desktop\CaseStudy_CarRental\CarRental\obj\Debug\net8.0\CarRental.dll
 C:\Users\Chrisha Dalmacio\OneDrive\Desktop\CaseStudy_CarRental\CarRental\obj\Debug\net8.0\refint\CarRental.dll
 C:\Users\Chrisha Dalmacio\OneDrive\Desktop\CaseStudy_CarRental\CarRental\obj\Debug\net8.0\CarRental.pdb
 C:\Users\Chrisha Dalmacio\OneDrive\Desktop\CaseStudy_CarRental\CarRental\obj\Debug\net8.0\CarRental.genruntimeconfig.cache
 C:\Users\Chrisha Dalmacio\OneDrive\Desktop\CaseStudy_CarRental\CarRental\obj\Debug\net8.0\ref\CarRental.dll
+C:\Users\Chrisha Dalmacio\OneDrive\Desktop\CaseStudy_CarRental\CarRental\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using CarRental.Services;
+using System.Data;
 
 namespace CarRental.Controllers
 {
@@ -38,31 +39,54 @@ namespace CarRental.Controllers
         {
             if (ModelState.IsValid)
             {
-                UserAccount account = new UserAccount();
-                account.Email = model.Email;
-                account.FirstName = model.FirstName;
-                account.LastName = model.LastName;
-                account.Password = model.Password;
-                account.Username = model.Username;
-
-                try
+                using (var transaction = _context.Database.BeginTransaction()) 
                 {
-                    _context.UserAccounts.Add(account);
-                    _context.SaveChanges();
+                    try
+                    {
+                        bool userExists = _context.UserAccounts.Any(u => u.Email == model.Email || u.Username == model.Username);
+                        if (userExists)
+                        {
+                            ModelState.AddModelError("", "Email or Username is already taken. Please choose another.");
+                            return View(model);
+                        }
 
-                    ModelState.Clear();
-                    ViewBag.Message = $"{account.FirstName} {account.LastName} registered successfully. Please login.";
+                        UserAccount account = new UserAccount
+                        {
+                            Email = model.Email,
+                            FirstName = model.FirstName,
+                            LastName = model.LastName,
+                            Password = PasswordHelper.HashPassword(model.Password),
+                            Username = model.Username,
+                            Role = "User"
+                        };
 
+                        _context.UserAccounts.Add(account);
+                        _context.SaveChanges();
+                        transaction.Commit(); 
+
+                        ModelState.Clear();
+                        ViewBag.Message = $"{account.FirstName} {account.LastName} registered successfully. Please login.";
+                        return RedirectToAction("Login");
+                    }
+                    catch (DbUpdateException ex)
+                    {
+                        transaction.Rollback(); 
+                        ModelState.AddModelError("", $"Database Error: {ex.InnerException?.Message}");
+                        Console.WriteLine($"Database Error: {ex.InnerException?.Message}");
+                        return View(model);
+                    }
+                    catch (Exception ex)
+                    {
+                        transaction.Rollback();
+                        ModelState.AddModelError("", $"An unexpected error occurred: {ex.Message}");
+                        Console.WriteLine($"Unexpected Error: {ex.Message}");
+                        return View(model);
+                    }
                 }
-                catch (DbUpdateException ex)
-                {
-                    ModelState.AddModelError("", "Please enter a unique email or Password");
-                    return View(model);
-                }
-                return View();
             }
             return View(model);
         }
+
 
         public IActionResult Login()
         {
@@ -74,22 +98,33 @@ namespace CarRental.Controllers
         {
             if (ModelState.IsValid)
             {
-                var user = _context.UserAccounts.Where(x => (x.Username == model.UsernameOrEmail || x.Email == model.UsernameOrEmail) && x.Password == model.Password).FirstOrDefault();
+                
+                string hashedInputPassword = PasswordHelper.HashPassword(model.Password);
+
+                var user = _context.UserAccounts
+                    .FirstOrDefault(x => (x.Username == model.UsernameOrEmail || x.Email == model.UsernameOrEmail)
+                                        && x.Password == hashedInputPassword);
 
                 if (user != null)
                 {
-              
                     var claims = new List<Claim>
-                    {
-                        new Claim(ClaimTypes.Name, user.Email),
-                        new Claim("Name", user.FirstName),
-                        new Claim(ClaimTypes.Role, "User"),
-                    };
+            {
+                new Claim(ClaimTypes.Name, user.Email),
+                new Claim("Name", user.FirstName),
+                new Claim(ClaimTypes.Role, user.Role),
+            };
 
                     var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
                     HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(claimsIdentity));
 
-                    return RedirectToAction("SecurePage");
+                    if (user.Role == "Admin")
+                    {
+                        return RedirectToAction("AdminDashboard", "Admin");
+                    }
+                    else
+                    {
+                        return RedirectToAction("SecurePage");
+                    }
                 }
                 else
                 {
@@ -98,6 +133,7 @@ namespace CarRental.Controllers
             }
             return View(model);
         }
+
 
         public ActionResult Logout()
         {

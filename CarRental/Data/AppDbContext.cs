@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using CarRental.Models;
+using CarRental.Services;
 
 namespace CarRental.Data
 {
@@ -20,6 +21,19 @@ namespace CarRental.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
+
+             modelBuilder.Entity<UserAccount>().HasData(
+               new UserAccount
+               {
+                   Id = 1,
+                   FirstName = "Dm",
+                   LastName = "Cars",
+                   Username= "dmcars",
+                   Email = "dmcarss23@email.com",
+                   Password = PasswordHelper.HashPassword("dmcars23"),
+                   Role = "Admin"
+               }
+           );
 
             modelBuilder.Entity<Car>().HasData(
                 new Car { CarId = 1, Brand = "Toyota", Model = "Vios", Seaters = 5, ImageUrl = "vios.jpg", RentalPrice = 2000m, Status = "Available" },

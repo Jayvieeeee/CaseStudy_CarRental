@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CarRental.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250309063318_removeverification")]
-    partial class removeverification
+    [Migration("20250310181925_addedAdminRole")]
+    partial class addedAdminRole
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -441,8 +441,12 @@ namespace CarRental.Migrations
 
                     b.Property<string>("Password")
                         .IsRequired()
-                        .HasMaxLength(20)
-                        .HasColumnType("nvarchar(20)");
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
+
+                    b.Property<string>("Role")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Username")
                         .IsRequired()
@@ -458,6 +462,18 @@ namespace CarRental.Migrations
                         .IsUnique();
 
                     b.ToTable("UserAccounts");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Email = "dmcarss23@email.com",
+                            FirstName = "Dm",
+                            LastName = "Cars",
+                            Password = "dmcars23",
+                            Role = "Admin",
+                            Username = "dmcars"
+                        });
                 });
 
             modelBuilder.Entity("CarRental.Models.RentalRequest", b =>

@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
 namespace CarRental.Models
@@ -8,6 +9,7 @@ namespace CarRental.Models
     public class UserAccount
     {
         [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
 
 
@@ -27,13 +29,15 @@ namespace CarRental.Models
        
 
         [Required(ErrorMessage = "Username is required.")]
-        [MaxLength(20, ErrorMessage = "Max 20 characters allowed.")]
         public string Username { get; set; }
 
         [Required(ErrorMessage = "Password is required.")]
-        [MaxLength(20, ErrorMessage = "Max 20 characters allowed.")]
+        [MaxLength(200, ErrorMessage = "Max 200 characters allowed.")]
         [DataType(DataType.Password)]
         public string Password { get; set; }
+
+        [Required]
+        public string Role { get; set; } // "Admin" or "User"
 
 
     }
