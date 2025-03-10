@@ -78,7 +78,7 @@ namespace CarRental.Controllers
 
                 if (user != null)
                 {
-                    //success login
+              
                     var claims = new List<Claim>
                     {
                         new Claim(ClaimTypes.Name, user.Email),
